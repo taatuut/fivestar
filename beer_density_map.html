@@ -1,0 +1,4277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe0d0de07a739fd795bd5e8018800c23 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fe0d0de07a739fd795bd5e8018800c23" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fe0d0de07a739fd795bd5e8018800c23 = L.map(
+                "map_fe0d0de07a739fd795bd5e8018800c23",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_77642b25c122c03bf5f1967b11cd3df7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_77642b25c122c03bf5f1967b11cd3df7.addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+            var marker_ebb12c6fa0141bb4a1297fffe1e50199 = L.marker(
+                [24.877267150207107, 54.99090634691927],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_65e5bac3bedd222249458abd9e74a707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89ec66d6c378121f01ff8117fea39295 = $(`<div id="html_89ec66d6c378121f01ff8117fea39295" style="width: 100.0%; height: 100.0%;">Country: AE<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_65e5bac3bedd222249458abd9e74a707.setContent(html_89ec66d6c378121f01ff8117fea39295);
+            
+        
+
+        marker_ebb12c6fa0141bb4a1297fffe1e50199.bindPopup(popup_65e5bac3bedd222249458abd9e74a707)
+        ;
+
+        
+    
+    
+            marker_ebb12c6fa0141bb4a1297fffe1e50199.bindTooltip(
+                `<div>
+                     AE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81e79414ef7a8f2f1eafa67be04b42d5 = L.marker(
+                [32.6280556, 64.8605556],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_e580d056c227be3b3a7dc9f3c21e620c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea8a5ea085d1b5331bae30fc719204fb = $(`<div id="html_ea8a5ea085d1b5331bae30fc719204fb" style="width: 100.0%; height: 100.0%;">Country: AF<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_e580d056c227be3b3a7dc9f3c21e620c.setContent(html_ea8a5ea085d1b5331bae30fc719204fb);
+            
+        
+
+        marker_81e79414ef7a8f2f1eafa67be04b42d5.bindPopup(popup_e580d056c227be3b3a7dc9f3c21e620c)
+        ;
+
+        
+    
+    
+            marker_81e79414ef7a8f2f1eafa67be04b42d5.bindTooltip(
+                `<div>
+                     AF - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_012e63ac59f60a213e356dc626ba8429 = L.marker(
+                [39.873773, 20.007145],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_d2af88296e8886c45cfb668dc3531fef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3517c116b4ef7c43b9e4a15e1b54414d = $(`<div id="html_3517c116b4ef7c43b9e4a15e1b54414d" style="width: 100.0%; height: 100.0%;">Country: AL<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_d2af88296e8886c45cfb668dc3531fef.setContent(html_3517c116b4ef7c43b9e4a15e1b54414d);
+            
+        
+
+        marker_012e63ac59f60a213e356dc626ba8429.bindPopup(popup_d2af88296e8886c45cfb668dc3531fef)
+        ;
+
+        
+    
+    
+            marker_012e63ac59f60a213e356dc626ba8429.bindTooltip(
+                `<div>
+                     AL - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12e6ef6190f7d100bcfc1742cb7a07ce = L.marker(
+                [40.176683, 44.50621],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_d7cac915622b3e60b2bc67518ade6c0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_259b369ca1af4a782918703d2b8c9025 = $(`<div id="html_259b369ca1af4a782918703d2b8c9025" style="width: 100.0%; height: 100.0%;">Country: AM<br>Category: Beer Festival<br>POI Count: 1</div>`)[0];
+                popup_d7cac915622b3e60b2bc67518ade6c0c.setContent(html_259b369ca1af4a782918703d2b8c9025);
+            
+        
+
+        marker_12e6ef6190f7d100bcfc1742cb7a07ce.bindPopup(popup_d7cac915622b3e60b2bc67518ade6c0c)
+        ;
+
+        
+    
+    
+            marker_12e6ef6190f7d100bcfc1742cb7a07ce.bindTooltip(
+                `<div>
+                     AM - Beer Festival
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6f471531cbb82a8663ed2a11c1b177d = L.marker(
+                [-12.874658, 9.471798],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_2620d66ca83df99fd25ab6f13d6692b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46020eaaef44eaf1909ed03a57e3933a = $(`<div id="html_46020eaaef44eaf1909ed03a57e3933a" style="width: 100.0%; height: 100.0%;">Country: AO<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_2620d66ca83df99fd25ab6f13d6692b0.setContent(html_46020eaaef44eaf1909ed03a57e3933a);
+            
+        
+
+        marker_c6f471531cbb82a8663ed2a11c1b177d.bindPopup(popup_2620d66ca83df99fd25ab6f13d6692b0)
+        ;
+
+        
+    
+    
+            marker_c6f471531cbb82a8663ed2a11c1b177d.bindTooltip(
+                `<div>
+                     AO - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4822b59bf579dc5ba5d7a573699e6887 = L.marker(
+                [-35.53847538510385, -61.16114166775605],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_858394327cb11b9d133d2ffa8fc68fba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_728f3743697d78230c9b907d08747616 = $(`<div id="html_728f3743697d78230c9b907d08747616" style="width: 100.0%; height: 100.0%;">Country: AR<br>Category: Beer Bar<br>POI Count: 57</div>`)[0];
+                popup_858394327cb11b9d133d2ffa8fc68fba.setContent(html_728f3743697d78230c9b907d08747616);
+            
+        
+
+        marker_4822b59bf579dc5ba5d7a573699e6887.bindPopup(popup_858394327cb11b9d133d2ffa8fc68fba)
+        ;
+
+        
+    
+    
+            marker_4822b59bf579dc5ba5d7a573699e6887.bindTooltip(
+                `<div>
+                     AR - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b718e5d9230d3b474df48b8fc7c08eb = L.marker(
+                [47.64408475845178, 14.347544914931847],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_1971725fb181f25c17fc6a613cff66c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef0645ff5b878808719292f4c505fbf2 = $(`<div id="html_ef0645ff5b878808719292f4c505fbf2" style="width: 100.0%; height: 100.0%;">Country: AT<br>Category: Beer Garden<br>POI Count: 49</div>`)[0];
+                popup_1971725fb181f25c17fc6a613cff66c8.setContent(html_ef0645ff5b878808719292f4c505fbf2);
+            
+        
+
+        marker_1b718e5d9230d3b474df48b8fc7c08eb.bindPopup(popup_1971725fb181f25c17fc6a613cff66c8)
+        ;
+
+        
+    
+    
+            marker_1b718e5d9230d3b474df48b8fc7c08eb.bindTooltip(
+                `<div>
+                     AT - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_949be1f0b7559f58a30329c9a0d89df3 = L.marker(
+                [-33.33434671984364, 146.1630901573364],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c82e2f3a249dcad7d449e5dc53d21e9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94cb79daf180bc98f8df82d46ed7c0dd = $(`<div id="html_94cb79daf180bc98f8df82d46ed7c0dd" style="width: 100.0%; height: 100.0%;">Country: AU<br>Category: Beer Store<br>POI Count: 58</div>`)[0];
+                popup_c82e2f3a249dcad7d449e5dc53d21e9f.setContent(html_94cb79daf180bc98f8df82d46ed7c0dd);
+            
+        
+
+        marker_949be1f0b7559f58a30329c9a0d89df3.bindPopup(popup_c82e2f3a249dcad7d449e5dc53d21e9f)
+        ;
+
+        
+    
+    
+            marker_949be1f0b7559f58a30329c9a0d89df3.bindTooltip(
+                `<div>
+                     AU - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef70188d1380171e2244cfbbacc0cf00 = L.marker(
+                [60.079335443745094, 19.934035651917764],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_8f549e29a693b2e45497153f392f81ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0027412fbd49763639b66a7fb566f455 = $(`<div id="html_0027412fbd49763639b66a7fb566f455" style="width: 100.0%; height: 100.0%;">Country: AX<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_8f549e29a693b2e45497153f392f81ba.setContent(html_0027412fbd49763639b66a7fb566f455);
+            
+        
+
+        marker_ef70188d1380171e2244cfbbacc0cf00.bindPopup(popup_8f549e29a693b2e45497153f392f81ba)
+        ;
+
+        
+    
+    
+            marker_ef70188d1380171e2244cfbbacc0cf00.bindTooltip(
+                `<div>
+                     AX - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cd76481debf92995d78ad6e7be3e9e7 = L.marker(
+                [40.338034809875566, 49.19242336088375],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_7e7211ab156797079dd471f8c4df4f8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35d1e3fccb7448fcc41aa41ff3125d2d = $(`<div id="html_35d1e3fccb7448fcc41aa41ff3125d2d" style="width: 100.0%; height: 100.0%;">Country: AZ<br>Category: Beer Garden<br>POI Count: 5</div>`)[0];
+                popup_7e7211ab156797079dd471f8c4df4f8b.setContent(html_35d1e3fccb7448fcc41aa41ff3125d2d);
+            
+        
+
+        marker_7cd76481debf92995d78ad6e7be3e9e7.bindPopup(popup_7e7211ab156797079dd471f8c4df4f8b)
+        ;
+
+        
+    
+    
+            marker_7cd76481debf92995d78ad6e7be3e9e7.bindTooltip(
+                `<div>
+                     AZ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbaf99a76c7bce03b7a467f69acc6690 = L.marker(
+                [43.77545657423201, 17.741240324994266],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_b7f3792e400733b059977ad6446b311c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_482c9c00d406fb832003b6e0d454bbcd = $(`<div id="html_482c9c00d406fb832003b6e0d454bbcd" style="width: 100.0%; height: 100.0%;">Country: BA<br>Category: Beer Garden<br>POI Count: 2</div>`)[0];
+                popup_b7f3792e400733b059977ad6446b311c.setContent(html_482c9c00d406fb832003b6e0d454bbcd);
+            
+        
+
+        marker_bbaf99a76c7bce03b7a467f69acc6690.bindPopup(popup_b7f3792e400733b059977ad6446b311c)
+        ;
+
+        
+    
+    
+            marker_bbaf99a76c7bce03b7a467f69acc6690.bindTooltip(
+                `<div>
+                     BA - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10232252c65b4ee9b21e52f64e0c77b4 = L.marker(
+                [13.164169, -59.636759],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_6f8cfc6754abe921e7784d26b6c7d94c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ec65255b8ca1d5b5a7ecac96940c1f0 = $(`<div id="html_2ec65255b8ca1d5b5a7ecac96940c1f0" style="width: 100.0%; height: 100.0%;">Country: BB<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_6f8cfc6754abe921e7784d26b6c7d94c.setContent(html_2ec65255b8ca1d5b5a7ecac96940c1f0);
+            
+        
+
+        marker_10232252c65b4ee9b21e52f64e0c77b4.bindPopup(popup_6f8cfc6754abe921e7784d26b6c7d94c)
+        ;
+
+        
+    
+    
+            marker_10232252c65b4ee9b21e52f64e0c77b4.bindTooltip(
+                `<div>
+                     BB - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_245fe7a6523adb6e05c9fc1322b2c935 = L.marker(
+                [23.277557429186412, 89.57893779968431],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_36624b12c21e018ba5468fdb8873e5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c036b56a420482e719bfe3ee09d2889 = $(`<div id="html_3c036b56a420482e719bfe3ee09d2889" style="width: 100.0%; height: 100.0%;">Country: BD<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_36624b12c21e018ba5468fdb8873e5e3.setContent(html_3c036b56a420482e719bfe3ee09d2889);
+            
+        
+
+        marker_245fe7a6523adb6e05c9fc1322b2c935.bindPopup(popup_36624b12c21e018ba5468fdb8873e5e3)
+        ;
+
+        
+    
+    
+            marker_245fe7a6523adb6e05c9fc1322b2c935.bindTooltip(
+                `<div>
+                     BD - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7d4eada1b3019f86abbb63c9bd7e656 = L.marker(
+                [51.012354863241804, 4.028334692417199],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_359a95b95a5c67aff9cf4092d03b04f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34dbe23c1e5c191abe166f3515d58c7e = $(`<div id="html_34dbe23c1e5c191abe166f3515d58c7e" style="width: 100.0%; height: 100.0%;">Country: BE<br>Category: Beer Garden<br>POI Count: 142</div>`)[0];
+                popup_359a95b95a5c67aff9cf4092d03b04f8.setContent(html_34dbe23c1e5c191abe166f3515d58c7e);
+            
+        
+
+        marker_b7d4eada1b3019f86abbb63c9bd7e656.bindPopup(popup_359a95b95a5c67aff9cf4092d03b04f8)
+        ;
+
+        
+    
+    
+            marker_b7d4eada1b3019f86abbb63c9bd7e656.bindTooltip(
+                `<div>
+                     BE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a04277c652a44d92910a95e52af1177e = L.marker(
+                [12.309356, -1.556131],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_6a0827abd41ff1e7dd39ffd29b656a94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9bae35029180ff22a80e73a1ea5744c = $(`<div id="html_c9bae35029180ff22a80e73a1ea5744c" style="width: 100.0%; height: 100.0%;">Country: BF<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_6a0827abd41ff1e7dd39ffd29b656a94.setContent(html_c9bae35029180ff22a80e73a1ea5744c);
+            
+        
+
+        marker_a04277c652a44d92910a95e52af1177e.bindPopup(popup_6a0827abd41ff1e7dd39ffd29b656a94)
+        ;
+
+        
+    
+    
+            marker_a04277c652a44d92910a95e52af1177e.bindTooltip(
+                `<div>
+                     BF - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_983cadc16c77acf744fb95b7ab6cffe9 = L.marker(
+                [42.53801665892833, 24.78131942827931],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_04ef58b165be06510c5f56740ce948fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_689ac8baaeb21af100a00d34ffbe3ffd = $(`<div id="html_689ac8baaeb21af100a00d34ffbe3ffd" style="width: 100.0%; height: 100.0%;">Country: BG<br>Category: Beer Garden<br>POI Count: 21</div>`)[0];
+                popup_04ef58b165be06510c5f56740ce948fd.setContent(html_689ac8baaeb21af100a00d34ffbe3ffd);
+            
+        
+
+        marker_983cadc16c77acf744fb95b7ab6cffe9.bindPopup(popup_04ef58b165be06510c5f56740ce948fd)
+        ;
+
+        
+    
+    
+            marker_983cadc16c77acf744fb95b7ab6cffe9.bindTooltip(
+                `<div>
+                     BG - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48c853aa8406ca1c8faf322c3941afb1 = L.marker(
+                [26.217973, 50.609501],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_f3e68f2717a8ea0d73f9fcafb1956b69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_007f73e6420df070333f7999ce409a6b = $(`<div id="html_007f73e6420df070333f7999ce409a6b" style="width: 100.0%; height: 100.0%;">Country: BH<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_f3e68f2717a8ea0d73f9fcafb1956b69.setContent(html_007f73e6420df070333f7999ce409a6b);
+            
+        
+
+        marker_48c853aa8406ca1c8faf322c3941afb1.bindPopup(popup_f3e68f2717a8ea0d73f9fcafb1956b69)
+        ;
+
+        
+    
+    
+            marker_48c853aa8406ca1c8faf322c3941afb1.bindTooltip(
+                `<div>
+                     BH - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e89bc95dcd71c1d71a055adf7bd0da79 = L.marker(
+                [6.420495, 2.34712],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_bcb31a72a8208b0e5314a633bfd0bcb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32bf1d9f195b8964eba6f6acfee337df = $(`<div id="html_32bf1d9f195b8964eba6f6acfee337df" style="width: 100.0%; height: 100.0%;">Country: BJ<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_bcb31a72a8208b0e5314a633bfd0bcb3.setContent(html_32bf1d9f195b8964eba6f6acfee337df);
+            
+        
+
+        marker_e89bc95dcd71c1d71a055adf7bd0da79.bindPopup(popup_bcb31a72a8208b0e5314a633bfd0bcb3)
+        ;
+
+        
+    
+    
+            marker_e89bc95dcd71c1d71a055adf7bd0da79.bindTooltip(
+                `<div>
+                     BJ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9120fe0266a0121a10722feb20184afe = L.marker(
+                [4.9586306846539285, 114.95181728393173],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_57ae2c5a61ff524e6f7e310a3058bc16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89e4a2973a55b67e122ece03eb7f76d2 = $(`<div id="html_89e4a2973a55b67e122ece03eb7f76d2" style="width: 100.0%; height: 100.0%;">Country: BN<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_57ae2c5a61ff524e6f7e310a3058bc16.setContent(html_89e4a2973a55b67e122ece03eb7f76d2);
+            
+        
+
+        marker_9120fe0266a0121a10722feb20184afe.bindPopup(popup_57ae2c5a61ff524e6f7e310a3058bc16)
+        ;
+
+        
+    
+    
+            marker_9120fe0266a0121a10722feb20184afe.bindTooltip(
+                `<div>
+                     BN - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d005641efeead471789cb2b7e87cb39 = L.marker(
+                [-17.794986366610647, -63.18262570607022],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_51df84c83064be6c0c629b52fd900613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_470dc482dd7240784114042e5c5c3a77 = $(`<div id="html_470dc482dd7240784114042e5c5c3a77" style="width: 100.0%; height: 100.0%;">Country: BO<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_51df84c83064be6c0c629b52fd900613.setContent(html_470dc482dd7240784114042e5c5c3a77);
+            
+        
+
+        marker_7d005641efeead471789cb2b7e87cb39.bindPopup(popup_51df84c83064be6c0c629b52fd900613)
+        ;
+
+        
+    
+    
+            marker_7d005641efeead471789cb2b7e87cb39.bindTooltip(
+                `<div>
+                     BO - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f0de338d93aae4b4be53a4437bdb4b0 = L.marker(
+                [-15.179269037728195, -45.22594678002495],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_2cd32fa01bc961149423ffffc8ceec12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_751f1f49983c06bc7cbd6137a91695ef = $(`<div id="html_751f1f49983c06bc7cbd6137a91695ef" style="width: 100.0%; height: 100.0%;">Country: BR<br>Category: Beer Garden<br>POI Count: 685</div>`)[0];
+                popup_2cd32fa01bc961149423ffffc8ceec12.setContent(html_751f1f49983c06bc7cbd6137a91695ef);
+            
+        
+
+        marker_1f0de338d93aae4b4be53a4437bdb4b0.bindPopup(popup_2cd32fa01bc961149423ffffc8ceec12)
+        ;
+
+        
+    
+    
+            marker_1f0de338d93aae4b4be53a4437bdb4b0.bindTooltip(
+                `<div>
+                     BR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbf644451ef07801312b5f8c188855aa = L.marker(
+                [25.042551975349234, -77.36069485545158],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_7248dfa3f21d4c1c395d58293696a67e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ec79ff231472a8674fd4435c8494a40 = $(`<div id="html_6ec79ff231472a8674fd4435c8494a40" style="width: 100.0%; height: 100.0%;">Country: BS<br>Category: Beer Store<br>POI Count: 2</div>`)[0];
+                popup_7248dfa3f21d4c1c395d58293696a67e.setContent(html_6ec79ff231472a8674fd4435c8494a40);
+            
+        
+
+        marker_bbf644451ef07801312b5f8c188855aa.bindPopup(popup_7248dfa3f21d4c1c395d58293696a67e)
+        ;
+
+        
+    
+    
+            marker_bbf644451ef07801312b5f8c188855aa.bindTooltip(
+                `<div>
+                     BS - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ba7b09241e050b7b75521e78b689f90 = L.marker(
+                [-19.993982, 23.43912],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_8c9c2b013d747841538b661d4d0e0acc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf5772838371c9ecbcbcdb9a071fafb3 = $(`<div id="html_bf5772838371c9ecbcbcdb9a071fafb3" style="width: 100.0%; height: 100.0%;">Country: BW<br>Category: Beer Store<br>POI Count: 1</div>`)[0];
+                popup_8c9c2b013d747841538b661d4d0e0acc.setContent(html_bf5772838371c9ecbcbcdb9a071fafb3);
+            
+        
+
+        marker_9ba7b09241e050b7b75521e78b689f90.bindPopup(popup_8c9c2b013d747841538b661d4d0e0acc)
+        ;
+
+        
+    
+    
+            marker_9ba7b09241e050b7b75521e78b689f90.bindTooltip(
+                `<div>
+                     BW - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_875b1e622ad22cf476785c699871c3e2 = L.marker(
+                [53.556673049084445, 28.145982044101228],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_181dac354d52f6959991d56d04363482 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87ac031c2afba7753d5dea0d16334329 = $(`<div id="html_87ac031c2afba7753d5dea0d16334329" style="width: 100.0%; height: 100.0%;">Country: BY<br>Category: Beer Store<br>POI Count: 22</div>`)[0];
+                popup_181dac354d52f6959991d56d04363482.setContent(html_87ac031c2afba7753d5dea0d16334329);
+            
+        
+
+        marker_875b1e622ad22cf476785c699871c3e2.bindPopup(popup_181dac354d52f6959991d56d04363482)
+        ;
+
+        
+    
+    
+            marker_875b1e622ad22cf476785c699871c3e2.bindTooltip(
+                `<div>
+                     BY - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ae116343486382873c1b100d00a502a = L.marker(
+                [17.154714, -89.091184],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_1ad790c997f11eacf94e8edff55de0c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32aadca460986e1871ebd4515d3c76b9 = $(`<div id="html_32aadca460986e1871ebd4515d3c76b9" style="width: 100.0%; height: 100.0%;">Country: BZ<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_1ad790c997f11eacf94e8edff55de0c6.setContent(html_32aadca460986e1871ebd4515d3c76b9);
+            
+        
+
+        marker_2ae116343486382873c1b100d00a502a.bindPopup(popup_1ad790c997f11eacf94e8edff55de0c6)
+        ;
+
+        
+    
+    
+            marker_2ae116343486382873c1b100d00a502a.bindTooltip(
+                `<div>
+                     BZ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_134b6729e655da3443bf7ff4d9fb45e6 = L.marker(
+                [46.2894567998946, -85.96164422607939],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_7cb989b14f1ee4e68f8f89f52de8f6b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5bd38773cb433821320a579a8f9e284 = $(`<div id="html_f5bd38773cb433821320a579a8f9e284" style="width: 100.0%; height: 100.0%;">Country: CA<br>Category: Beer Store<br>POI Count: 54</div>`)[0];
+                popup_7cb989b14f1ee4e68f8f89f52de8f6b9.setContent(html_f5bd38773cb433821320a579a8f9e284);
+            
+        
+
+        marker_134b6729e655da3443bf7ff4d9fb45e6.bindPopup(popup_7cb989b14f1ee4e68f8f89f52de8f6b9)
+        ;
+
+        
+    
+    
+            marker_134b6729e655da3443bf7ff4d9fb45e6.bindTooltip(
+                `<div>
+                     CA - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d91ffa715be012879b1d098248822b4 = L.marker(
+                [47.29779719935239, 8.279823577215298],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_2730fee7d70706f64b0b34dbad5786eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92d333eb80a27202df3ac2ce26866ff1 = $(`<div id="html_92d333eb80a27202df3ac2ce26866ff1" style="width: 100.0%; height: 100.0%;">Country: CH<br>Category: Beer Garden<br>POI Count: 20</div>`)[0];
+                popup_2730fee7d70706f64b0b34dbad5786eb.setContent(html_92d333eb80a27202df3ac2ce26866ff1);
+            
+        
+
+        marker_9d91ffa715be012879b1d098248822b4.bindPopup(popup_2730fee7d70706f64b0b34dbad5786eb)
+        ;
+
+        
+    
+    
+            marker_9d91ffa715be012879b1d098248822b4.bindTooltip(
+                `<div>
+                     CH - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2bd2e61ec9d4782e1918a516e18255b = L.marker(
+                [5.197210030911248, -3.7346155956356277],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_4d7c76cb24718842cffd3fe1d0fed192 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b7b0b71f8dd2f02b27dc3b314d971ec = $(`<div id="html_6b7b0b71f8dd2f02b27dc3b314d971ec" style="width: 100.0%; height: 100.0%;">Country: CI<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_4d7c76cb24718842cffd3fe1d0fed192.setContent(html_6b7b0b71f8dd2f02b27dc3b314d971ec);
+            
+        
+
+        marker_e2bd2e61ec9d4782e1918a516e18255b.bindPopup(popup_4d7c76cb24718842cffd3fe1d0fed192)
+        ;
+
+        
+    
+    
+            marker_e2bd2e61ec9d4782e1918a516e18255b.bindTooltip(
+                `<div>
+                     CI - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e522896ee4ec584e106751ed65c8181c = L.marker(
+                [-34.33663219719984, -71.28773507561145],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_3db0ff77a0508869b618b12f86aaa5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_377153088b2b4a66905e11d75b268eff = $(`<div id="html_377153088b2b4a66905e11d75b268eff" style="width: 100.0%; height: 100.0%;">Country: CL<br>Category: Beer Garden<br>POI Count: 58</div>`)[0];
+                popup_3db0ff77a0508869b618b12f86aaa5f7.setContent(html_377153088b2b4a66905e11d75b268eff);
+            
+        
+
+        marker_e522896ee4ec584e106751ed65c8181c.bindPopup(popup_3db0ff77a0508869b618b12f86aaa5f7)
+        ;
+
+        
+    
+    
+            marker_e522896ee4ec584e106751ed65c8181c.bindTooltip(
+                `<div>
+                     CL - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55cb0836a8ddd6380ffa391f8355ea01 = L.marker(
+                [3.8930917492724966, 11.508326129928118],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_d4d5c5f57d230eb2b6025cfb9ace448d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84c90ee3b250fc0a4e3ec5ecfb5e21f2 = $(`<div id="html_84c90ee3b250fc0a4e3ec5ecfb5e21f2" style="width: 100.0%; height: 100.0%;">Country: CM<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_d4d5c5f57d230eb2b6025cfb9ace448d.setContent(html_84c90ee3b250fc0a4e3ec5ecfb5e21f2);
+            
+        
+
+        marker_55cb0836a8ddd6380ffa391f8355ea01.bindPopup(popup_d4d5c5f57d230eb2b6025cfb9ace448d)
+        ;
+
+        
+    
+    
+            marker_55cb0836a8ddd6380ffa391f8355ea01.bindTooltip(
+                `<div>
+                     CM - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bc15170cad3e778bbc49ba9403a4d15 = L.marker(
+                [31.232292806734836, 116.10162535085931],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_3b44fade3c6d2386fc95d9043798ca13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c590f6a4818d5f4dd0063b3963f1d93 = $(`<div id="html_3c590f6a4818d5f4dd0063b3963f1d93" style="width: 100.0%; height: 100.0%;">Country: CN<br>Category: Beer Bar<br>POI Count: 62</div>`)[0];
+                popup_3b44fade3c6d2386fc95d9043798ca13.setContent(html_3c590f6a4818d5f4dd0063b3963f1d93);
+            
+        
+
+        marker_6bc15170cad3e778bbc49ba9403a4d15.bindPopup(popup_3b44fade3c6d2386fc95d9043798ca13)
+        ;
+
+        
+    
+    
+            marker_6bc15170cad3e778bbc49ba9403a4d15.bindTooltip(
+                `<div>
+                     CN - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a3325e60c1538fae711323abb832229 = L.marker(
+                [6.254646802446857, -74.9477205698304],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_cac58b4c6238b2c7e6ab56868d7c2169 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15dd2d9809a63e71ea82c6632d3dbc6a = $(`<div id="html_15dd2d9809a63e71ea82c6632d3dbc6a" style="width: 100.0%; height: 100.0%;">Country: CO<br>Category: Beer Garden<br>POI Count: 67</div>`)[0];
+                popup_cac58b4c6238b2c7e6ab56868d7c2169.setContent(html_15dd2d9809a63e71ea82c6632d3dbc6a);
+            
+        
+
+        marker_5a3325e60c1538fae711323abb832229.bindPopup(popup_cac58b4c6238b2c7e6ab56868d7c2169)
+        ;
+
+        
+    
+    
+            marker_5a3325e60c1538fae711323abb832229.bindTooltip(
+                `<div>
+                     CO - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae257a68676a58d2df3aace1537c7d2c = L.marker(
+                [10.029449966342762, -84.34276677894748],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_816244106b064131dd03f03039803b82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc93ebf4c4c000e34af995a5986d3726 = $(`<div id="html_dc93ebf4c4c000e34af995a5986d3726" style="width: 100.0%; height: 100.0%;">Country: CR<br>Category: Beer Garden<br>POI Count: 21</div>`)[0];
+                popup_816244106b064131dd03f03039803b82.setContent(html_dc93ebf4c4c000e34af995a5986d3726);
+            
+        
+
+        marker_ae257a68676a58d2df3aace1537c7d2c.bindPopup(popup_816244106b064131dd03f03039803b82)
+        ;
+
+        
+    
+    
+            marker_ae257a68676a58d2df3aace1537c7d2c.bindTooltip(
+                `<div>
+                     CR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83e25f0497db2c60eea82f088d42c318 = L.marker(
+                [21.923351, -79.443565],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c7aff73f8ba165002392bb2761747cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_946eb742a9a97e77f78a7ea046b1045c = $(`<div id="html_946eb742a9a97e77f78a7ea046b1045c" style="width: 100.0%; height: 100.0%;">Country: CU<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_c7aff73f8ba165002392bb2761747cb0.setContent(html_946eb742a9a97e77f78a7ea046b1045c);
+            
+        
+
+        marker_83e25f0497db2c60eea82f088d42c318.bindPopup(popup_c7aff73f8ba165002392bb2761747cb0)
+        ;
+
+        
+    
+    
+            marker_83e25f0497db2c60eea82f088d42c318.bindTooltip(
+                `<div>
+                     CU - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f135ba6d55c49e7ceaaae22ead23fe3a = L.marker(
+                [16.889244034105054, -24.987865038336203],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_57b416f5ec7f4507cd46ee2c9898a5f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c41510954b700ddb75a57e0c2d43606 = $(`<div id="html_2c41510954b700ddb75a57e0c2d43606" style="width: 100.0%; height: 100.0%;">Country: CV<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_57b416f5ec7f4507cd46ee2c9898a5f1.setContent(html_2c41510954b700ddb75a57e0c2d43606);
+            
+        
+
+        marker_f135ba6d55c49e7ceaaae22ead23fe3a.bindPopup(popup_57b416f5ec7f4507cd46ee2c9898a5f1)
+        ;
+
+        
+    
+    
+            marker_f135ba6d55c49e7ceaaae22ead23fe3a.bindTooltip(
+                `<div>
+                     CV - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2b2a39b045a3f4849cf688a1a57c9a1 = L.marker(
+                [35.21539793249492, 33.40355414311402],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_fa5db8e4152e3a647b1d1d54731bebaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a68c916b701c2be77dd7091f6d5b4d5 = $(`<div id="html_3a68c916b701c2be77dd7091f6d5b4d5" style="width: 100.0%; height: 100.0%;">Country: CY<br>Category: Beer Garden<br>POI Count: 13</div>`)[0];
+                popup_fa5db8e4152e3a647b1d1d54731bebaf.setContent(html_3a68c916b701c2be77dd7091f6d5b4d5);
+            
+        
+
+        marker_c2b2a39b045a3f4849cf688a1a57c9a1.bindPopup(popup_fa5db8e4152e3a647b1d1d54731bebaf)
+        ;
+
+        
+    
+    
+            marker_c2b2a39b045a3f4849cf688a1a57c9a1.bindTooltip(
+                `<div>
+                     CY - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_214dc1a9d7a95d94c0a3b8e4f11bcd37 = L.marker(
+                [49.73656475439126, 15.584827954417506],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_bc5a72ba61d9462b6682fa35d3697b0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e17d5d9844f5c91b6c8a1048b06a741 = $(`<div id="html_5e17d5d9844f5c91b6c8a1048b06a741" style="width: 100.0%; height: 100.0%;">Country: CZ<br>Category: Beer Garden<br>POI Count: 99</div>`)[0];
+                popup_bc5a72ba61d9462b6682fa35d3697b0e.setContent(html_5e17d5d9844f5c91b6c8a1048b06a741);
+            
+        
+
+        marker_214dc1a9d7a95d94c0a3b8e4f11bcd37.bindPopup(popup_bc5a72ba61d9462b6682fa35d3697b0e)
+        ;
+
+        
+    
+    
+            marker_214dc1a9d7a95d94c0a3b8e4f11bcd37.bindTooltip(
+                `<div>
+                     CZ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7630bf2a729222351d9f91d3202151d3 = L.marker(
+                [50.55426914266418, 9.923569408873808],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_98dfab9153d5ebd1dfd7de508cc662d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c9e320145f6b9d783ad0c055001be3 = $(`<div id="html_d7c9e320145f6b9d783ad0c055001be3" style="width: 100.0%; height: 100.0%;">Country: DE<br>Category: Beer Garden<br>POI Count: 267</div>`)[0];
+                popup_98dfab9153d5ebd1dfd7de508cc662d1.setContent(html_d7c9e320145f6b9d783ad0c055001be3);
+            
+        
+
+        marker_7630bf2a729222351d9f91d3202151d3.bindPopup(popup_98dfab9153d5ebd1dfd7de508cc662d1)
+        ;
+
+        
+    
+    
+            marker_7630bf2a729222351d9f91d3202151d3.bindTooltip(
+                `<div>
+                     DE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9e8d4a7d3b22ecb1e2ac72519ab69c5 = L.marker(
+                [55.73530959456919, 11.726521100885561],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_85934d97b0907d8b6a8430fd6cf4dbc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d488aafa6c53de633cca42d841c19fd = $(`<div id="html_6d488aafa6c53de633cca42d841c19fd" style="width: 100.0%; height: 100.0%;">Country: DK<br>Category: Beer Garden<br>POI Count: 15</div>`)[0];
+                popup_85934d97b0907d8b6a8430fd6cf4dbc7.setContent(html_6d488aafa6c53de633cca42d841c19fd);
+            
+        
+
+        marker_f9e8d4a7d3b22ecb1e2ac72519ab69c5.bindPopup(popup_85934d97b0907d8b6a8430fd6cf4dbc7)
+        ;
+
+        
+    
+    
+            marker_f9e8d4a7d3b22ecb1e2ac72519ab69c5.bindTooltip(
+                `<div>
+                     DK - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcb0d93b825b38757032fa15370d6c2a = L.marker(
+                [19.149124657645118, -70.43953730505686],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_211450b343898751f548a2e656c6cdc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45e7037f14a8c8b941e023b90f69813e = $(`<div id="html_45e7037f14a8c8b941e023b90f69813e" style="width: 100.0%; height: 100.0%;">Country: DO<br>Category: Beer Garden<br>POI Count: 21</div>`)[0];
+                popup_211450b343898751f548a2e656c6cdc2.setContent(html_45e7037f14a8c8b941e023b90f69813e);
+            
+        
+
+        marker_fcb0d93b825b38757032fa15370d6c2a.bindPopup(popup_211450b343898751f548a2e656c6cdc2)
+        ;
+
+        
+    
+    
+            marker_fcb0d93b825b38757032fa15370d6c2a.bindTooltip(
+                `<div>
+                     DO - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2448cf594c06fb3eb81e95f64e5ce5b = L.marker(
+                [36.739840777477724, 3.0426439699631103],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_263ce65a0d94a316a2ede1f183bdeafe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a47261529b808864bbfb28b2f21cca9 = $(`<div id="html_2a47261529b808864bbfb28b2f21cca9" style="width: 100.0%; height: 100.0%;">Country: DZ<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_263ce65a0d94a316a2ede1f183bdeafe.setContent(html_2a47261529b808864bbfb28b2f21cca9);
+            
+        
+
+        marker_d2448cf594c06fb3eb81e95f64e5ce5b.bindPopup(popup_263ce65a0d94a316a2ede1f183bdeafe)
+        ;
+
+        
+    
+    
+            marker_d2448cf594c06fb3eb81e95f64e5ce5b.bindTooltip(
+                `<div>
+                     DZ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6aabc6cc91e73cf627265524d99ce03e = L.marker(
+                [-0.7650123426637705, -79.28622284254357],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9524b490897e5f797f294bde15418411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16259166c186532f44a69ca7f048b490 = $(`<div id="html_16259166c186532f44a69ca7f048b490" style="width: 100.0%; height: 100.0%;">Country: EC<br>Category: Beer Garden<br>POI Count: 7</div>`)[0];
+                popup_9524b490897e5f797f294bde15418411.setContent(html_16259166c186532f44a69ca7f048b490);
+            
+        
+
+        marker_6aabc6cc91e73cf627265524d99ce03e.bindPopup(popup_9524b490897e5f797f294bde15418411)
+        ;
+
+        
+    
+    
+            marker_6aabc6cc91e73cf627265524d99ce03e.bindTooltip(
+                `<div>
+                     EC - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fe4b1df5d5a9dce99f2949297ba5224 = L.marker(
+                [59.372390526916504, 25.742963291290284],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_30a207facac35c641b0d6742313d3373 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03beb4be9c4f2ca2ef193ae692c20c86 = $(`<div id="html_03beb4be9c4f2ca2ef193ae692c20c86" style="width: 100.0%; height: 100.0%;">Country: EE<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_30a207facac35c641b0d6742313d3373.setContent(html_03beb4be9c4f2ca2ef193ae692c20c86);
+            
+        
+
+        marker_3fe4b1df5d5a9dce99f2949297ba5224.bindPopup(popup_30a207facac35c641b0d6742313d3373)
+        ;
+
+        
+    
+    
+            marker_3fe4b1df5d5a9dce99f2949297ba5224.bindTooltip(
+                `<div>
+                     EE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b20038046e61592450ad28dc7c493173 = L.marker(
+                [28.994209425680168, 33.04656262424115],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9fa564354661ea4d0093c48124a0c15e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0682d376837128973762d2b7228b8fb1 = $(`<div id="html_0682d376837128973762d2b7228b8fb1" style="width: 100.0%; height: 100.0%;">Country: EG<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_9fa564354661ea4d0093c48124a0c15e.setContent(html_0682d376837128973762d2b7228b8fb1);
+            
+        
+
+        marker_b20038046e61592450ad28dc7c493173.bindPopup(popup_9fa564354661ea4d0093c48124a0c15e)
+        ;
+
+        
+    
+    
+            marker_b20038046e61592450ad28dc7c493173.bindTooltip(
+                `<div>
+                     EG - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad96935ca4c0176055e5cb7c526a9805 = L.marker(
+                [39.78329193263165, -3.078543327950868],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_50a4b86d0a8d62cebe904baef85d9a50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a622ec9a0b8cea820b114671a8a2ff3 = $(`<div id="html_2a622ec9a0b8cea820b114671a8a2ff3" style="width: 100.0%; height: 100.0%;">Country: ES<br>Category: Beer Garden<br>POI Count: 209</div>`)[0];
+                popup_50a4b86d0a8d62cebe904baef85d9a50.setContent(html_2a622ec9a0b8cea820b114671a8a2ff3);
+            
+        
+
+        marker_ad96935ca4c0176055e5cb7c526a9805.bindPopup(popup_50a4b86d0a8d62cebe904baef85d9a50)
+        ;
+
+        
+    
+    
+            marker_ad96935ca4c0176055e5cb7c526a9805.bindTooltip(
+                `<div>
+                     ES - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b3b4217b0b8e8cff719a305d4d4f920 = L.marker(
+                [60.93170497294882, 23.604530035223767],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_cd8110dba65fadfd29a1245b72092812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16a76635ff48b73f0fa1b55a330b18a8 = $(`<div id="html_16a76635ff48b73f0fa1b55a330b18a8" style="width: 100.0%; height: 100.0%;">Country: FI<br>Category: Beer Garden<br>POI Count: 51</div>`)[0];
+                popup_cd8110dba65fadfd29a1245b72092812.setContent(html_16a76635ff48b73f0fa1b55a330b18a8);
+            
+        
+
+        marker_9b3b4217b0b8e8cff719a305d4d4f920.bindPopup(popup_cd8110dba65fadfd29a1245b72092812)
+        ;
+
+        
+    
+    
+            marker_9b3b4217b0b8e8cff719a305d4d4f920.bindTooltip(
+                `<div>
+                     FI - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dbbbc7f90e76b86e4f04345637e710f = L.marker(
+                [-18.13571883580732, 178.45606582606413],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_0332e05791dcfa9080d385f3ee5ca568 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_819cb345aaf7e6d9025c6ca30fbcd053 = $(`<div id="html_819cb345aaf7e6d9025c6ca30fbcd053" style="width: 100.0%; height: 100.0%;">Country: FJ<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_0332e05791dcfa9080d385f3ee5ca568.setContent(html_819cb345aaf7e6d9025c6ca30fbcd053);
+            
+        
+
+        marker_2dbbbc7f90e76b86e4f04345637e710f.bindPopup(popup_0332e05791dcfa9080d385f3ee5ca568)
+        ;
+
+        
+    
+    
+            marker_2dbbbc7f90e76b86e4f04345637e710f.bindTooltip(
+                `<div>
+                     FJ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8527e3417da25351c44ad310f43c331a = L.marker(
+                [46.0742735582693, 2.8450894749219566],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_263cb4e464a006b8a3459fb334f3d6fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6754f0a262968a89059c3484cf36bc5e = $(`<div id="html_6754f0a262968a89059c3484cf36bc5e" style="width: 100.0%; height: 100.0%;">Country: FR<br>Category: Beer Bar<br>POI Count: 71</div>`)[0];
+                popup_263cb4e464a006b8a3459fb334f3d6fe.setContent(html_6754f0a262968a89059c3484cf36bc5e);
+            
+        
+
+        marker_8527e3417da25351c44ad310f43c331a.bindPopup(popup_263cb4e464a006b8a3459fb334f3d6fe)
+        ;
+
+        
+    
+    
+            marker_8527e3417da25351c44ad310f43c331a.bindTooltip(
+                `<div>
+                     FR - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e6a6ba919f56e5f9b980bc8dd132916 = L.marker(
+                [52.95860783435647, -1.928174665495794],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_6c34c3c7a671b15cc3925b978823db0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4661f20858c481bf2ee914cb835397d = $(`<div id="html_f4661f20858c481bf2ee914cb835397d" style="width: 100.0%; height: 100.0%;">Country: GB<br>Category: Beer Store<br>POI Count: 125</div>`)[0];
+                popup_6c34c3c7a671b15cc3925b978823db0c.setContent(html_f4661f20858c481bf2ee914cb835397d);
+            
+        
+
+        marker_2e6a6ba919f56e5f9b980bc8dd132916.bindPopup(popup_6c34c3c7a671b15cc3925b978823db0c)
+        ;
+
+        
+    
+    
+            marker_2e6a6ba919f56e5f9b980bc8dd132916.bindTooltip(
+                `<div>
+                     GB - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8923b16f7cd31e0feab6ab466e31cb8 = L.marker(
+                [41.594201, 43.651070000000004],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_4a4937eb1944c867f0aa010d6016c7e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98d955c47941882c88177771844030fa = $(`<div id="html_98d955c47941882c88177771844030fa" style="width: 100.0%; height: 100.0%;">Country: GE<br>Category: Beer Bar<br>POI Count: 3</div>`)[0];
+                popup_4a4937eb1944c867f0aa010d6016c7e9.setContent(html_98d955c47941882c88177771844030fa);
+            
+        
+
+        marker_e8923b16f7cd31e0feab6ab466e31cb8.bindPopup(popup_4a4937eb1944c867f0aa010d6016c7e9)
+        ;
+
+        
+    
+    
+            marker_e8923b16f7cd31e0feab6ab466e31cb8.bindTooltip(
+                `<div>
+                     GE - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9d492088ab3f8298805c67a2ad167cd = L.marker(
+                [6.394918529741439, -0.39110345532376356],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_6b3000612e3cca5e28b1580970fb1dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcee3d900517ba0b827d2ba22ee823fa = $(`<div id="html_dcee3d900517ba0b827d2ba22ee823fa" style="width: 100.0%; height: 100.0%;">Country: GH<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_6b3000612e3cca5e28b1580970fb1dd9.setContent(html_dcee3d900517ba0b827d2ba22ee823fa);
+            
+        
+
+        marker_c9d492088ab3f8298805c67a2ad167cd.bindPopup(popup_6b3000612e3cca5e28b1580970fb1dd9)
+        ;
+
+        
+    
+    
+            marker_c9d492088ab3f8298805c67a2ad167cd.bindTooltip(
+                `<div>
+                     GH - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45364ca81db2b1400b7b6e044d509b06 = L.marker(
+                [39.05504349144123, 23.51291917424107],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_738cfd7656c61782df4d0c114e494bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9ef47cb00c9d156621ff002a7b7b6b4 = $(`<div id="html_e9ef47cb00c9d156621ff002a7b7b6b4" style="width: 100.0%; height: 100.0%;">Country: GR<br>Category: Beer Bar<br>POI Count: 28</div>`)[0];
+                popup_738cfd7656c61782df4d0c114e494bc6.setContent(html_e9ef47cb00c9d156621ff002a7b7b6b4);
+            
+        
+
+        marker_45364ca81db2b1400b7b6e044d509b06.bindPopup(popup_738cfd7656c61782df4d0c114e494bc6)
+        ;
+
+        
+    
+    
+            marker_45364ca81db2b1400b7b6e044d509b06.bindTooltip(
+                `<div>
+                     GR - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_073ddfff60ebac9ad4c32ea92cd62de5 = L.marker(
+                [14.653223567638587, -90.4260256550912],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_0c26be0501f1cd119267730e97147173 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c3388144ecfea17b5bfe9c98788a986 = $(`<div id="html_0c3388144ecfea17b5bfe9c98788a986" style="width: 100.0%; height: 100.0%;">Country: GT<br>Category: Beer Garden<br>POI Count: 5</div>`)[0];
+                popup_0c26be0501f1cd119267730e97147173.setContent(html_0c3388144ecfea17b5bfe9c98788a986);
+            
+        
+
+        marker_073ddfff60ebac9ad4c32ea92cd62de5.bindPopup(popup_0c26be0501f1cd119267730e97147173)
+        ;
+
+        
+    
+    
+            marker_073ddfff60ebac9ad4c32ea92cd62de5.bindTooltip(
+                `<div>
+                     GT - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b8077a4e2d1d14a6e92a3d9147722ac = L.marker(
+                [13.520895505271927, 144.82383176967528],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_b9484e90423fec18275d260919600cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3045ee1c321cf300c7b5c2c80f1da7ad = $(`<div id="html_3045ee1c321cf300c7b5c2c80f1da7ad" style="width: 100.0%; height: 100.0%;">Country: GU<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_b9484e90423fec18275d260919600cec.setContent(html_3045ee1c321cf300c7b5c2c80f1da7ad);
+            
+        
+
+        marker_1b8077a4e2d1d14a6e92a3d9147722ac.bindPopup(popup_b9484e90423fec18275d260919600cec)
+        ;
+
+        
+    
+    
+            marker_1b8077a4e2d1d14a6e92a3d9147722ac.bindTooltip(
+                `<div>
+                     GU - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3d571874368b1194305f22e948dd784 = L.marker(
+                [6.816561, -58.15743],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c30ab63dceb15b158abae3a56dc1d9cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ade9d8907b1691d0923cb096270b5612 = $(`<div id="html_ade9d8907b1691d0923cb096270b5612" style="width: 100.0%; height: 100.0%;">Country: GY<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_c30ab63dceb15b158abae3a56dc1d9cc.setContent(html_ade9d8907b1691d0923cb096270b5612);
+            
+        
+
+        marker_b3d571874368b1194305f22e948dd784.bindPopup(popup_c30ab63dceb15b158abae3a56dc1d9cc)
+        ;
+
+        
+    
+    
+            marker_b3d571874368b1194305f22e948dd784.bindTooltip(
+                `<div>
+                     GY - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_764327b5e36ec5d229f517ccf8293b9f = L.marker(
+                [22.389870000000002, 114.1672595],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_f810e872a9fac9a9e479572c4a3e74f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fa49c311e85822ca5cd397b9db6f7ca = $(`<div id="html_7fa49c311e85822ca5cd397b9db6f7ca" style="width: 100.0%; height: 100.0%;">Country: HK<br>Category: Beer Bar<br>POI Count: 2</div>`)[0];
+                popup_f810e872a9fac9a9e479572c4a3e74f4.setContent(html_7fa49c311e85822ca5cd397b9db6f7ca);
+            
+        
+
+        marker_764327b5e36ec5d229f517ccf8293b9f.bindPopup(popup_f810e872a9fac9a9e479572c4a3e74f4)
+        ;
+
+        
+    
+    
+            marker_764327b5e36ec5d229f517ccf8293b9f.bindTooltip(
+                `<div>
+                     HK - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1a5582d1c4f52d0aaf866b6963fe99e = L.marker(
+                [14.37074876166676, -87.5969241987659],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9a608862759ebf5b9da0c8ddaf5ec7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82fb025d8a45dacac9f2f12b96bf69de = $(`<div id="html_82fb025d8a45dacac9f2f12b96bf69de" style="width: 100.0%; height: 100.0%;">Country: HN<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_9a608862759ebf5b9da0c8ddaf5ec7a4.setContent(html_82fb025d8a45dacac9f2f12b96bf69de);
+            
+        
+
+        marker_d1a5582d1c4f52d0aaf866b6963fe99e.bindPopup(popup_9a608862759ebf5b9da0c8ddaf5ec7a4)
+        ;
+
+        
+    
+    
+            marker_d1a5582d1c4f52d0aaf866b6963fe99e.bindTooltip(
+                `<div>
+                     HN - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4ade21602d24fc8a73f01fe94c91f15 = L.marker(
+                [45.530425318193984, 16.090065018689668],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_591603faf759f2f3dc828885669ba8d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38324cf2b0a3e82ce390d60fab7fc965 = $(`<div id="html_38324cf2b0a3e82ce390d60fab7fc965" style="width: 100.0%; height: 100.0%;">Country: HR<br>Category: Beer Garden<br>POI Count: 19</div>`)[0];
+                popup_591603faf759f2f3dc828885669ba8d8.setContent(html_38324cf2b0a3e82ce390d60fab7fc965);
+            
+        
+
+        marker_d4ade21602d24fc8a73f01fe94c91f15.bindPopup(popup_591603faf759f2f3dc828885669ba8d8)
+        ;
+
+        
+    
+    
+            marker_d4ade21602d24fc8a73f01fe94c91f15.bindTooltip(
+                `<div>
+                     HR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f368fce84909f7a48f62ede615c59f24 = L.marker(
+                [19.080456980638218, -72.35518712221622],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_ec3c2a8ebfad66490297f0b39647a8a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03a756dea13b9160c1e1b2c51132fda8 = $(`<div id="html_03a756dea13b9160c1e1b2c51132fda8" style="width: 100.0%; height: 100.0%;">Country: HT<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_ec3c2a8ebfad66490297f0b39647a8a4.setContent(html_03a756dea13b9160c1e1b2c51132fda8);
+            
+        
+
+        marker_f368fce84909f7a48f62ede615c59f24.bindPopup(popup_ec3c2a8ebfad66490297f0b39647a8a4)
+        ;
+
+        
+    
+    
+            marker_f368fce84909f7a48f62ede615c59f24.bindTooltip(
+                `<div>
+                     HT - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_519a9bd68e03b43ab50322ce12d467b1 = L.marker(
+                [47.40623747674314, 19.116664662158158],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_2896bc38da0841ebcedc625d3657b256 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d21fef41d11e5c04a72edc1fa43acfeb = $(`<div id="html_d21fef41d11e5c04a72edc1fa43acfeb" style="width: 100.0%; height: 100.0%;">Country: HU<br>Category: Beer Garden<br>POI Count: 93</div>`)[0];
+                popup_2896bc38da0841ebcedc625d3657b256.setContent(html_d21fef41d11e5c04a72edc1fa43acfeb);
+            
+        
+
+        marker_519a9bd68e03b43ab50322ce12d467b1.bindPopup(popup_2896bc38da0841ebcedc625d3657b256)
+        ;
+
+        
+    
+    
+            marker_519a9bd68e03b43ab50322ce12d467b1.bindTooltip(
+                `<div>
+                     HU - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d77682fe70071ea80ebc258dc95a20f7 = L.marker(
+                [-5.563627445386204, 109.00253466196231],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_2e32380e6572de4317bb3afa14ea8be6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc8899414e3cecf679b01c2ea478d813 = $(`<div id="html_dc8899414e3cecf679b01c2ea478d813" style="width: 100.0%; height: 100.0%;">Country: ID<br>Category: Beer Garden<br>POI Count: 117</div>`)[0];
+                popup_2e32380e6572de4317bb3afa14ea8be6.setContent(html_dc8899414e3cecf679b01c2ea478d813);
+            
+        
+
+        marker_d77682fe70071ea80ebc258dc95a20f7.bindPopup(popup_2e32380e6572de4317bb3afa14ea8be6)
+        ;
+
+        
+    
+    
+            marker_d77682fe70071ea80ebc258dc95a20f7.bindTooltip(
+                `<div>
+                     ID - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_005a6a1ef2e8efe8ae197784abdb079b = L.marker(
+                [52.88826483779852, -8.274367965993697],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_f422c0a2238493196d684b7fcdafeba5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96e3e139be65fe0a5013f0f8f85649c6 = $(`<div id="html_96e3e139be65fe0a5013f0f8f85649c6" style="width: 100.0%; height: 100.0%;">Country: IE<br>Category: Beer Bar<br>POI Count: 7</div>`)[0];
+                popup_f422c0a2238493196d684b7fcdafeba5.setContent(html_96e3e139be65fe0a5013f0f8f85649c6);
+            
+        
+
+        marker_005a6a1ef2e8efe8ae197784abdb079b.bindPopup(popup_f422c0a2238493196d684b7fcdafeba5)
+        ;
+
+        
+    
+    
+            marker_005a6a1ef2e8efe8ae197784abdb079b.bindTooltip(
+                `<div>
+                     IE - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9ba41b0dc162e6db5d97c454a34fa6e = L.marker(
+                [32.26493592454368, 34.965826310297615],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_890dd1a16b685e85fe6887ac039284c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d648b6b3a733fe0d30c4a1ec9f91cd8e = $(`<div id="html_d648b6b3a733fe0d30c4a1ec9f91cd8e" style="width: 100.0%; height: 100.0%;">Country: IL<br>Category: Beer Garden<br>POI Count: 9</div>`)[0];
+                popup_890dd1a16b685e85fe6887ac039284c1.setContent(html_d648b6b3a733fe0d30c4a1ec9f91cd8e);
+            
+        
+
+        marker_d9ba41b0dc162e6db5d97c454a34fa6e.bindPopup(popup_890dd1a16b685e85fe6887ac039284c1)
+        ;
+
+        
+    
+    
+            marker_d9ba41b0dc162e6db5d97c454a34fa6e.bindTooltip(
+                `<div>
+                     IL - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e995739b82952c84cbedd7ed2b5dc245 = L.marker(
+                [54.149445, -4.480562],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c4c7493a788978ba23a0a61f7889e8e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a3d9654350bca71b9ee52b41f2cec57 = $(`<div id="html_7a3d9654350bca71b9ee52b41f2cec57" style="width: 100.0%; height: 100.0%;">Country: IM<br>Category: Beer Store<br>POI Count: 1</div>`)[0];
+                popup_c4c7493a788978ba23a0a61f7889e8e3.setContent(html_7a3d9654350bca71b9ee52b41f2cec57);
+            
+        
+
+        marker_e995739b82952c84cbedd7ed2b5dc245.bindPopup(popup_c4c7493a788978ba23a0a61f7889e8e3)
+        ;
+
+        
+    
+    
+            marker_e995739b82952c84cbedd7ed2b5dc245.bindTooltip(
+                `<div>
+                     IM - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5361bdc87562412b908d8a2ffb2021d = L.marker(
+                [18.985434269216675, 76.83885920495813],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_eb05e47c29e8e0e369ca43057fcbd062 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d92e23f7158101c1129c3cc52395559 = $(`<div id="html_0d92e23f7158101c1129c3cc52395559" style="width: 100.0%; height: 100.0%;">Country: IN<br>Category: Beer Garden<br>POI Count: 22</div>`)[0];
+                popup_eb05e47c29e8e0e369ca43057fcbd062.setContent(html_0d92e23f7158101c1129c3cc52395559);
+            
+        
+
+        marker_f5361bdc87562412b908d8a2ffb2021d.bindPopup(popup_eb05e47c29e8e0e369ca43057fcbd062)
+        ;
+
+        
+    
+    
+            marker_f5361bdc87562412b908d8a2ffb2021d.bindTooltip(
+                `<div>
+                     IN - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_898e1fc146d1e9a54ae7c44b30f22e06 = L.marker(
+                [37.06579384900939, 48.098335744293735],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_39c681caca34a3745626b6e3433c054f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5224e8df9276f04b9536b94adc65a01c = $(`<div id="html_5224e8df9276f04b9536b94adc65a01c" style="width: 100.0%; height: 100.0%;">Country: IR<br>Category: Beer Garden<br>POI Count: 9</div>`)[0];
+                popup_39c681caca34a3745626b6e3433c054f.setContent(html_5224e8df9276f04b9536b94adc65a01c);
+            
+        
+
+        marker_898e1fc146d1e9a54ae7c44b30f22e06.bindPopup(popup_39c681caca34a3745626b6e3433c054f)
+        ;
+
+        
+    
+    
+            marker_898e1fc146d1e9a54ae7c44b30f22e06.bindTooltip(
+                `<div>
+                     IR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0899b52f178f1366d720e93eeba23c58 = L.marker(
+                [64.13671339052482, -21.92190808705783],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_12be53810aa9eaa078b1d66ae09936e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c282e3688a864a33d0962332a25d2571 = $(`<div id="html_c282e3688a864a33d0962332a25d2571" style="width: 100.0%; height: 100.0%;">Country: IS<br>Category: Beer Garden<br>POI Count: 2</div>`)[0];
+                popup_12be53810aa9eaa078b1d66ae09936e9.setContent(html_c282e3688a864a33d0962332a25d2571);
+            
+        
+
+        marker_0899b52f178f1366d720e93eeba23c58.bindPopup(popup_12be53810aa9eaa078b1d66ae09936e9)
+        ;
+
+        
+    
+    
+            marker_0899b52f178f1366d720e93eeba23c58.bindTooltip(
+                `<div>
+                     IS - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ed6ad1d4095702c14f653472ac590d4 = L.marker(
+                [43.568074703911584, 11.726685842199673],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_8bd67e609449358721c6e269c226bc28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1580a3c614fc8ee028b5d5c74c64f84e = $(`<div id="html_1580a3c614fc8ee028b5d5c74c64f84e" style="width: 100.0%; height: 100.0%;">Country: IT<br>Category: Beer Garden<br>POI Count: 88</div>`)[0];
+                popup_8bd67e609449358721c6e269c226bc28.setContent(html_1580a3c614fc8ee028b5d5c74c64f84e);
+            
+        
+
+        marker_8ed6ad1d4095702c14f653472ac590d4.bindPopup(popup_8bd67e609449358721c6e269c226bc28)
+        ;
+
+        
+    
+    
+            marker_8ed6ad1d4095702c14f653472ac590d4.bindTooltip(
+                `<div>
+                     IT - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_019d5ca764f31df0f496f3d88bc9746c = L.marker(
+                [16.789987, -76.354191],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_78882764ae2502e4cecaddb1dcee8954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a7abddfa77e019052258e8207d3eb93 = $(`<div id="html_7a7abddfa77e019052258e8207d3eb93" style="width: 100.0%; height: 100.0%;">Country: JM<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_78882764ae2502e4cecaddb1dcee8954.setContent(html_7a7abddfa77e019052258e8207d3eb93);
+            
+        
+
+        marker_019d5ca764f31df0f496f3d88bc9746c.bindPopup(popup_78882764ae2502e4cecaddb1dcee8954)
+        ;
+
+        
+    
+    
+            marker_019d5ca764f31df0f496f3d88bc9746c.bindTooltip(
+                `<div>
+                     JM - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0b685848570fd98c87b7cf8d61756a1 = L.marker(
+                [31.767015107517892, 35.78121260015609],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_6dc981f256137f139ae02ab199eee158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_981045321b1c3e93b0e2895f501d70de = $(`<div id="html_981045321b1c3e93b0e2895f501d70de" style="width: 100.0%; height: 100.0%;">Country: JO<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_6dc981f256137f139ae02ab199eee158.setContent(html_981045321b1c3e93b0e2895f501d70de);
+            
+        
+
+        marker_a0b685848570fd98c87b7cf8d61756a1.bindPopup(popup_6dc981f256137f139ae02ab199eee158)
+        ;
+
+        
+    
+    
+            marker_a0b685848570fd98c87b7cf8d61756a1.bindTooltip(
+                `<div>
+                     JO - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ece8e80ad536b3661c247a21b4c7bfc8 = L.marker(
+                [35.281466392762574, 137.5175812754568],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_df30343bee8fad4942eac8eaef23fd79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9705b01e8dde25e6dbf5a600af24d87a = $(`<div id="html_9705b01e8dde25e6dbf5a600af24d87a" style="width: 100.0%; height: 100.0%;">Country: JP<br>Category: Beer Bar<br>POI Count: 101</div>`)[0];
+                popup_df30343bee8fad4942eac8eaef23fd79.setContent(html_9705b01e8dde25e6dbf5a600af24d87a);
+            
+        
+
+        marker_ece8e80ad536b3661c247a21b4c7bfc8.bindPopup(popup_df30343bee8fad4942eac8eaef23fd79)
+        ;
+
+        
+    
+    
+            marker_ece8e80ad536b3661c247a21b4c7bfc8.bindTooltip(
+                `<div>
+                     JP - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac9181fb5ea3a5728aeda0f4117483c8 = L.marker(
+                [-1.6779929734653911, 37.56104209392634],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_1c393f807c22bc80d6a399a03c25393a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b19a32c69571b343e376b1bbbe2e2ec5 = $(`<div id="html_b19a32c69571b343e376b1bbbe2e2ec5" style="width: 100.0%; height: 100.0%;">Country: KE<br>Category: Beer Garden<br>POI Count: 11</div>`)[0];
+                popup_1c393f807c22bc80d6a399a03c25393a.setContent(html_b19a32c69571b343e376b1bbbe2e2ec5);
+            
+        
+
+        marker_ac9181fb5ea3a5728aeda0f4117483c8.bindPopup(popup_1c393f807c22bc80d6a399a03c25393a)
+        ;
+
+        
+    
+    
+            marker_ac9181fb5ea3a5728aeda0f4117483c8.bindTooltip(
+                `<div>
+                     KE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50b6883e4da5511231a603206ef2262e = L.marker(
+                [11.725590205027261, 103.86709680623373],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_4c8d0aa22d08dae1b38f38549e0ccb68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49cdbd5e0bbf82f34dd3c8a822b57e60 = $(`<div id="html_49cdbd5e0bbf82f34dd3c8a822b57e60" style="width: 100.0%; height: 100.0%;">Country: KH<br>Category: Beer Garden<br>POI Count: 6</div>`)[0];
+                popup_4c8d0aa22d08dae1b38f38549e0ccb68.setContent(html_49cdbd5e0bbf82f34dd3c8a822b57e60);
+            
+        
+
+        marker_50b6883e4da5511231a603206ef2262e.bindPopup(popup_4c8d0aa22d08dae1b38f38549e0ccb68)
+        ;
+
+        
+    
+    
+            marker_50b6883e4da5511231a603206ef2262e.bindTooltip(
+                `<div>
+                     KH - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23c4f1b4e1d745f377bfb40b63db6212 = L.marker(
+                [36.962692044178006, 127.29692508577722],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_da5cbba6d28145245a9e6a656bdfd365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2776c320b78d4d236d105987ba5ef739 = $(`<div id="html_2776c320b78d4d236d105987ba5ef739" style="width: 100.0%; height: 100.0%;">Country: KR<br>Category: Beer Garden<br>POI Count: 283</div>`)[0];
+                popup_da5cbba6d28145245a9e6a656bdfd365.setContent(html_2776c320b78d4d236d105987ba5ef739);
+            
+        
+
+        marker_23c4f1b4e1d745f377bfb40b63db6212.bindPopup(popup_da5cbba6d28145245a9e6a656bdfd365)
+        ;
+
+        
+    
+    
+            marker_23c4f1b4e1d745f377bfb40b63db6212.bindTooltip(
+                `<div>
+                     KR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43a6f32663bddb6ef5e6ee3dcad11603 = L.marker(
+                [29.33937519353902, 47.97015347441628],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_ce51353b39574d7e35568cf7e458fcae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03c635b8f7e66ced15092c342d66f94c = $(`<div id="html_03c635b8f7e66ced15092c342d66f94c" style="width: 100.0%; height: 100.0%;">Country: KW<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_ce51353b39574d7e35568cf7e458fcae.setContent(html_03c635b8f7e66ced15092c342d66f94c);
+            
+        
+
+        marker_43a6f32663bddb6ef5e6ee3dcad11603.bindPopup(popup_ce51353b39574d7e35568cf7e458fcae)
+        ;
+
+        
+    
+    
+            marker_43a6f32663bddb6ef5e6ee3dcad11603.bindTooltip(
+                `<div>
+                     KW - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10a82bc2f99d2b3231755523f9b7e80c = L.marker(
+                [49.174020399999996, 67.0676594],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_a2deeb41acb392d7f140553ab5ae77b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e86194b90b87bf97f7a60a70933d491a = $(`<div id="html_e86194b90b87bf97f7a60a70933d491a" style="width: 100.0%; height: 100.0%;">Country: KZ<br>Category: Beer Bar<br>POI Count: 5</div>`)[0];
+                popup_a2deeb41acb392d7f140553ab5ae77b1.setContent(html_e86194b90b87bf97f7a60a70933d491a);
+            
+        
+
+        marker_10a82bc2f99d2b3231755523f9b7e80c.bindPopup(popup_a2deeb41acb392d7f140553ab5ae77b1)
+        ;
+
+        
+    
+    
+            marker_10a82bc2f99d2b3231755523f9b7e80c.bindTooltip(
+                `<div>
+                     KZ - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79d12933b8a781edf58934cfcf45039d = L.marker(
+                [18.99969409652388, 102.16610368054656],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_544a327f60fd0cbc7e27fb0db7c98d56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4a54f3e7373264e74447aab444ff3a9 = $(`<div id="html_a4a54f3e7373264e74447aab444ff3a9" style="width: 100.0%; height: 100.0%;">Country: LA<br>Category: Beer Garden<br>POI Count: 6</div>`)[0];
+                popup_544a327f60fd0cbc7e27fb0db7c98d56.setContent(html_a4a54f3e7373264e74447aab444ff3a9);
+            
+        
+
+        marker_79d12933b8a781edf58934cfcf45039d.bindPopup(popup_544a327f60fd0cbc7e27fb0db7c98d56)
+        ;
+
+        
+    
+    
+            marker_79d12933b8a781edf58934cfcf45039d.bindTooltip(
+                `<div>
+                     LA - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00e2285d31e8b5c33c75fa862b1b2ae9 = L.marker(
+                [33.941756906294124, 35.586490088090635],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_8cbfe4b7c602a4e0eebd3cf6ca106756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bb1a5da3534652859142f792a29c099 = $(`<div id="html_6bb1a5da3534652859142f792a29c099" style="width: 100.0%; height: 100.0%;">Country: LB<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_8cbfe4b7c602a4e0eebd3cf6ca106756.setContent(html_6bb1a5da3534652859142f792a29c099);
+            
+        
+
+        marker_00e2285d31e8b5c33c75fa862b1b2ae9.bindPopup(popup_8cbfe4b7c602a4e0eebd3cf6ca106756)
+        ;
+
+        
+    
+    
+            marker_00e2285d31e8b5c33c75fa862b1b2ae9.bindTooltip(
+                `<div>
+                     LB - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4be9e354c0393b1ba1d9968025cbcd5e = L.marker(
+                [14.070364, -60.954856],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_53c790fee6b690628e56f3a11954f81c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ee1d0292a9efe73273d5359dccb52a = $(`<div id="html_99ee1d0292a9efe73273d5359dccb52a" style="width: 100.0%; height: 100.0%;">Country: LC<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_53c790fee6b690628e56f3a11954f81c.setContent(html_99ee1d0292a9efe73273d5359dccb52a);
+            
+        
+
+        marker_4be9e354c0393b1ba1d9968025cbcd5e.bindPopup(popup_53c790fee6b690628e56f3a11954f81c)
+        ;
+
+        
+    
+    
+            marker_4be9e354c0393b1ba1d9968025cbcd5e.bindTooltip(
+                `<div>
+                     LC - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5541bb376b4ec5c7c26d4fe1158445e9 = L.marker(
+                [7.305406163869115, 79.97273443201705],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_d78d443abeb1ba98d171aea8b8e70c27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5541aea5973001d4bae45cea8e544ef = $(`<div id="html_d5541aea5973001d4bae45cea8e544ef" style="width: 100.0%; height: 100.0%;">Country: LK<br>Category: Beer Garden<br>POI Count: 6</div>`)[0];
+                popup_d78d443abeb1ba98d171aea8b8e70c27.setContent(html_d5541aea5973001d4bae45cea8e544ef);
+            
+        
+
+        marker_5541bb376b4ec5c7c26d4fe1158445e9.bindPopup(popup_d78d443abeb1ba98d171aea8b8e70c27)
+        ;
+
+        
+    
+    
+            marker_5541bb376b4ec5c7c26d4fe1158445e9.bindTooltip(
+                `<div>
+                     LK - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba27cc0307a900872c9b12fdb5c92072 = L.marker(
+                [-29.301616, 27.478253],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_8cba6fa8148413c5c6ab933dd4064d9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e789fad896bcf1489bf9963e5abba4 = $(`<div id="html_c5e789fad896bcf1489bf9963e5abba4" style="width: 100.0%; height: 100.0%;">Country: LS<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_8cba6fa8148413c5c6ab933dd4064d9e.setContent(html_c5e789fad896bcf1489bf9963e5abba4);
+            
+        
+
+        marker_ba27cc0307a900872c9b12fdb5c92072.bindPopup(popup_8cba6fa8148413c5c6ab933dd4064d9e)
+        ;
+
+        
+    
+    
+            marker_ba27cc0307a900872c9b12fdb5c92072.bindTooltip(
+                `<div>
+                     LS - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c24b5ade105831e32e1a60d787b93af = L.marker(
+                [54.78463008287298, 24.74820992418287],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_30cae8d35a6bfa415c048504b4819a9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fed5e8e7840afec45c02528af75d019e = $(`<div id="html_fed5e8e7840afec45c02528af75d019e" style="width: 100.0%; height: 100.0%;">Country: LT<br>Category: Beer Bar<br>POI Count: 5</div>`)[0];
+                popup_30cae8d35a6bfa415c048504b4819a9c.setContent(html_fed5e8e7840afec45c02528af75d019e);
+            
+        
+
+        marker_4c24b5ade105831e32e1a60d787b93af.bindPopup(popup_30cae8d35a6bfa415c048504b4819a9c)
+        ;
+
+        
+    
+    
+            marker_4c24b5ade105831e32e1a60d787b93af.bindTooltip(
+                `<div>
+                     LT - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6c5d3c575a3e7c0c8948960eb8ad3f9 = L.marker(
+                [49.62447, 6.1220493],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_0eb2bd3088487b1d77755ca2c85e2eef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04ee8ce38b0aaeeb28ca4e88db7b7a64 = $(`<div id="html_04ee8ce38b0aaeeb28ca4e88db7b7a64" style="width: 100.0%; height: 100.0%;">Country: LU<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_0eb2bd3088487b1d77755ca2c85e2eef.setContent(html_04ee8ce38b0aaeeb28ca4e88db7b7a64);
+            
+        
+
+        marker_b6c5d3c575a3e7c0c8948960eb8ad3f9.bindPopup(popup_0eb2bd3088487b1d77755ca2c85e2eef)
+        ;
+
+        
+    
+    
+            marker_b6c5d3c575a3e7c0c8948960eb8ad3f9.bindTooltip(
+                `<div>
+                     LU - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af0201d069373e1c6d62a4b092384052 = L.marker(
+                [56.970760600307706, 24.202851545080442],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_5edae79a4c01f98ae595755fbecde9e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d313b5e746717ff4c6da3c481b3d90b = $(`<div id="html_9d313b5e746717ff4c6da3c481b3d90b" style="width: 100.0%; height: 100.0%;">Country: LV<br>Category: Beer Garden<br>POI Count: 38</div>`)[0];
+                popup_5edae79a4c01f98ae595755fbecde9e4.setContent(html_9d313b5e746717ff4c6da3c481b3d90b);
+            
+        
+
+        marker_af0201d069373e1c6d62a4b092384052.bindPopup(popup_5edae79a4c01f98ae595755fbecde9e4)
+        ;
+
+        
+    
+    
+            marker_af0201d069373e1c6d62a4b092384052.bindTooltip(
+                `<div>
+                     LV - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96e467f45442f13d5de95e3ce4135d67 = L.marker(
+                [34.701372306559975, -5.387806797955724],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_1dc2ca1bbb3e8a63280278000622c02e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f12ba4eea9291c032b54dd97fc5e168 = $(`<div id="html_5f12ba4eea9291c032b54dd97fc5e168" style="width: 100.0%; height: 100.0%;">Country: MA<br>Category: Beer Garden<br>POI Count: 5</div>`)[0];
+                popup_1dc2ca1bbb3e8a63280278000622c02e.setContent(html_5f12ba4eea9291c032b54dd97fc5e168);
+            
+        
+
+        marker_96e467f45442f13d5de95e3ce4135d67.bindPopup(popup_1dc2ca1bbb3e8a63280278000622c02e)
+        ;
+
+        
+    
+    
+            marker_96e467f45442f13d5de95e3ce4135d67.bindTooltip(
+                `<div>
+                     MA - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9c5f8f0903941a3c04a45c5a3d769ab = L.marker(
+                [47.03843956979926, 28.884672671556473],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_44ff18bbb56c082bf9d9c1f85dfb3894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_617a96980af7d97d314bde5c6ac939f6 = $(`<div id="html_617a96980af7d97d314bde5c6ac939f6" style="width: 100.0%; height: 100.0%;">Country: MD<br>Category: Beer Store<br>POI Count: 1</div>`)[0];
+                popup_44ff18bbb56c082bf9d9c1f85dfb3894.setContent(html_617a96980af7d97d314bde5c6ac939f6);
+            
+        
+
+        marker_a9c5f8f0903941a3c04a45c5a3d769ab.bindPopup(popup_44ff18bbb56c082bf9d9c1f85dfb3894)
+        ;
+
+        
+    
+    
+            marker_a9c5f8f0903941a3c04a45c5a3d769ab.bindTooltip(
+                `<div>
+                     MD - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c001eb989daeddee947b22be82256bfa = L.marker(
+                [42.39545510703267, 18.97700545765724],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_f6f0028f8f7562524b6bd2cbe0cb37cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2623ba835ff0627a36ab83e6add9924 = $(`<div id="html_b2623ba835ff0627a36ab83e6add9924" style="width: 100.0%; height: 100.0%;">Country: ME<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_f6f0028f8f7562524b6bd2cbe0cb37cf.setContent(html_b2623ba835ff0627a36ab83e6add9924);
+            
+        
+
+        marker_c001eb989daeddee947b22be82256bfa.bindPopup(popup_f6f0028f8f7562524b6bd2cbe0cb37cf)
+        ;
+
+        
+    
+    
+            marker_c001eb989daeddee947b22be82256bfa.bindTooltip(
+                `<div>
+                     ME - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a868414bd4f6f61b9a2a8c5e8fc7577d = L.marker(
+                [41.75557357916522, 21.493346801071677],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_2350db29289f2e4cf2679605f5e10c63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14e9d05c15b899a8a362a84466df4585 = $(`<div id="html_14e9d05c15b899a8a362a84466df4585" style="width: 100.0%; height: 100.0%;">Country: MK<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_2350db29289f2e4cf2679605f5e10c63.setContent(html_14e9d05c15b899a8a362a84466df4585);
+            
+        
+
+        marker_a868414bd4f6f61b9a2a8c5e8fc7577d.bindPopup(popup_2350db29289f2e4cf2679605f5e10c63)
+        ;
+
+        
+    
+    
+            marker_a868414bd4f6f61b9a2a8c5e8fc7577d.bindTooltip(
+                `<div>
+                     MK - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86b76b518abe37ea43d275ba22f66419 = L.marker(
+                [19.0065575, 95.529652],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_46861cb082baff89be49d98291211ada = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_381c485f47e794f69afb4bf1eebc8bb8 = $(`<div id="html_381c485f47e794f69afb4bf1eebc8bb8" style="width: 100.0%; height: 100.0%;">Country: MM<br>Category: Beer Bar<br>POI Count: 2</div>`)[0];
+                popup_46861cb082baff89be49d98291211ada.setContent(html_381c485f47e794f69afb4bf1eebc8bb8);
+            
+        
+
+        marker_86b76b518abe37ea43d275ba22f66419.bindPopup(popup_46861cb082baff89be49d98291211ada)
+        ;
+
+        
+    
+    
+            marker_86b76b518abe37ea43d275ba22f66419.bindTooltip(
+                `<div>
+                     MM - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f8d9fe31e7abd13c59c8fe0dc929ede = L.marker(
+                [47.913642, 106.89197],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_0e052c4a1ed0d5a95f58341c699fed9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13747976ae2d3b8fade408962e76d173 = $(`<div id="html_13747976ae2d3b8fade408962e76d173" style="width: 100.0%; height: 100.0%;">Country: MN<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_0e052c4a1ed0d5a95f58341c699fed9d.setContent(html_13747976ae2d3b8fade408962e76d173);
+            
+        
+
+        marker_6f8d9fe31e7abd13c59c8fe0dc929ede.bindPopup(popup_0e052c4a1ed0d5a95f58341c699fed9d)
+        ;
+
+        
+    
+    
+            marker_6f8d9fe31e7abd13c59c8fe0dc929ede.bindTooltip(
+                `<div>
+                     MN - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_810bf2be5988aad849b0ea23a7600ea0 = L.marker(
+                [16.76328650152456, -62.22214653201629],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_7a388f6099a60aa1ce5f9195435390d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15bb500b9bf54163ce8b59f839d77553 = $(`<div id="html_15bb500b9bf54163ce8b59f839d77553" style="width: 100.0%; height: 100.0%;">Country: MS<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_7a388f6099a60aa1ce5f9195435390d3.setContent(html_15bb500b9bf54163ce8b59f839d77553);
+            
+        
+
+        marker_810bf2be5988aad849b0ea23a7600ea0.bindPopup(popup_7a388f6099a60aa1ce5f9195435390d3)
+        ;
+
+        
+    
+    
+            marker_810bf2be5988aad849b0ea23a7600ea0.bindTooltip(
+                `<div>
+                     MS - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5281302b8564a7bbd2a4cb9b24500648 = L.marker(
+                [35.913513, 14.498697],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c655b2842a70a52524ec6b6fc42d3cbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5da3641a99ea9c4c012349a6c8553719 = $(`<div id="html_5da3641a99ea9c4c012349a6c8553719" style="width: 100.0%; height: 100.0%;">Country: MT<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_c655b2842a70a52524ec6b6fc42d3cbe.setContent(html_5da3641a99ea9c4c012349a6c8553719);
+            
+        
+
+        marker_5281302b8564a7bbd2a4cb9b24500648.bindPopup(popup_c655b2842a70a52524ec6b6fc42d3cbe)
+        ;
+
+        
+    
+    
+            marker_5281302b8564a7bbd2a4cb9b24500648.bindTooltip(
+                `<div>
+                     MT - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfe964d347915d3e3b02f858b781ab0a = L.marker(
+                [4.164633860057411, 73.51380883219666],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c3b9da46de21a014f91abd255cef843e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2181b00df1fab79272f988f954eb3bf3 = $(`<div id="html_2181b00df1fab79272f988f954eb3bf3" style="width: 100.0%; height: 100.0%;">Country: MV<br>Category: Beer Garden<br>POI Count: 2</div>`)[0];
+                popup_c3b9da46de21a014f91abd255cef843e.setContent(html_2181b00df1fab79272f988f954eb3bf3);
+            
+        
+
+        marker_bfe964d347915d3e3b02f858b781ab0a.bindPopup(popup_c3b9da46de21a014f91abd255cef843e)
+        ;
+
+        
+    
+    
+            marker_bfe964d347915d3e3b02f858b781ab0a.bindTooltip(
+                `<div>
+                     MV - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d02e62941b91782afbb6859e8c5b6b4 = L.marker(
+                [-13.99522, 33.794212],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_e00e75b09f504587759d74147e10cce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_247ec835c1b183ffcc1b79810e274ec9 = $(`<div id="html_247ec835c1b183ffcc1b79810e274ec9" style="width: 100.0%; height: 100.0%;">Country: MW<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_e00e75b09f504587759d74147e10cce3.setContent(html_247ec835c1b183ffcc1b79810e274ec9);
+            
+        
+
+        marker_4d02e62941b91782afbb6859e8c5b6b4.bindPopup(popup_e00e75b09f504587759d74147e10cce3)
+        ;
+
+        
+    
+    
+            marker_4d02e62941b91782afbb6859e8c5b6b4.bindTooltip(
+                `<div>
+                     MW - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5649766fb59025cac3d6855d12506690 = L.marker(
+                [20.573320318361574, -99.45788418758507],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_3e1a28155a2281b10b91bf3078da5155 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40bef02e17cd938d1e7263be01cd4a15 = $(`<div id="html_40bef02e17cd938d1e7263be01cd4a15" style="width: 100.0%; height: 100.0%;">Country: MX<br>Category: Beer Garden<br>POI Count: 419</div>`)[0];
+                popup_3e1a28155a2281b10b91bf3078da5155.setContent(html_40bef02e17cd938d1e7263be01cd4a15);
+            
+        
+
+        marker_5649766fb59025cac3d6855d12506690.bindPopup(popup_3e1a28155a2281b10b91bf3078da5155)
+        ;
+
+        
+    
+    
+            marker_5649766fb59025cac3d6855d12506690.bindTooltip(
+                `<div>
+                     MX - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a19eca410248bc03cb09b688c14650ab = L.marker(
+                [3.6715458010182416, 103.37478736346286],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_ad4ed4906a07c495ab812f6f4942cde2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04bc3f16fc12071dd8c6c76659321d35 = $(`<div id="html_04bc3f16fc12071dd8c6c76659321d35" style="width: 100.0%; height: 100.0%;">Country: MY<br>Category: Beer Garden<br>POI Count: 66</div>`)[0];
+                popup_ad4ed4906a07c495ab812f6f4942cde2.setContent(html_04bc3f16fc12071dd8c6c76659321d35);
+            
+        
+
+        marker_a19eca410248bc03cb09b688c14650ab.bindPopup(popup_ad4ed4906a07c495ab812f6f4942cde2)
+        ;
+
+        
+    
+    
+            marker_a19eca410248bc03cb09b688c14650ab.bindTooltip(
+                `<div>
+                     MY - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b01de8cb8524eba26ddd1d7290a9f0d = L.marker(
+                [-23.854319, 35.546023],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_b82403edede9d7306fa03e2786572519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eaffe556c0c15ac9977f97de576e6e5 = $(`<div id="html_8eaffe556c0c15ac9977f97de576e6e5" style="width: 100.0%; height: 100.0%;">Country: MZ<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_b82403edede9d7306fa03e2786572519.setContent(html_8eaffe556c0c15ac9977f97de576e6e5);
+            
+        
+
+        marker_7b01de8cb8524eba26ddd1d7290a9f0d.bindPopup(popup_b82403edede9d7306fa03e2786572519)
+        ;
+
+        
+    
+    
+            marker_7b01de8cb8524eba26ddd1d7290a9f0d.bindTooltip(
+                `<div>
+                     MZ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af50172b4266b26c2c0ab5d72a63b479 = L.marker(
+                [-22.601887, 17.109962],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9269e0131013509118de49798a2f3ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9559b876429edf61f40c3c597931744 = $(`<div id="html_f9559b876429edf61f40c3c597931744" style="width: 100.0%; height: 100.0%;">Country: NA<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_9269e0131013509118de49798a2f3ea3.setContent(html_f9559b876429edf61f40c3c597931744);
+            
+        
+
+        marker_af50172b4266b26c2c0ab5d72a63b479.bindPopup(popup_9269e0131013509118de49798a2f3ea3)
+        ;
+
+        
+    
+    
+            marker_af50172b4266b26c2c0ab5d72a63b479.bindTooltip(
+                `<div>
+                     NA - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa589bb20ed7f883777c54ee30a139ba = L.marker(
+                [14.498312950134277, 3.8835842609405518],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_4cdefb7c9fb7bcdf7486112a16485e22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee8e793ac95af86a320741297e13bae9 = $(`<div id="html_ee8e793ac95af86a320741297e13bae9" style="width: 100.0%; height: 100.0%;">Country: NE<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_4cdefb7c9fb7bcdf7486112a16485e22.setContent(html_ee8e793ac95af86a320741297e13bae9);
+            
+        
+
+        marker_aa589bb20ed7f883777c54ee30a139ba.bindPopup(popup_4cdefb7c9fb7bcdf7486112a16485e22)
+        ;
+
+        
+    
+    
+            marker_aa589bb20ed7f883777c54ee30a139ba.bindTooltip(
+                `<div>
+                     NE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_033c6779f5b240c8039f4d78f94c1254 = L.marker(
+                [7.792513468281783, 5.561127376408333],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_ad86b68c49731d9961f7a0af0d31f61e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb4df00a447ac62384ddf3093b66eddc = $(`<div id="html_fb4df00a447ac62384ddf3093b66eddc" style="width: 100.0%; height: 100.0%;">Country: NG<br>Category: Beer Garden<br>POI Count: 9</div>`)[0];
+                popup_ad86b68c49731d9961f7a0af0d31f61e.setContent(html_fb4df00a447ac62384ddf3093b66eddc);
+            
+        
+
+        marker_033c6779f5b240c8039f4d78f94c1254.bindPopup(popup_ad86b68c49731d9961f7a0af0d31f61e)
+        ;
+
+        
+    
+    
+            marker_033c6779f5b240c8039f4d78f94c1254.bindTooltip(
+                `<div>
+                     NG - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_943eb1cbe2ed9d18ad37f9d9d391d478 = L.marker(
+                [12.219554050559143, -86.47776068425193],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_87000acd6a75d9e8a23c01c96f6d10bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deedcca16559d609727ecc0ad9410279 = $(`<div id="html_deedcca16559d609727ecc0ad9410279" style="width: 100.0%; height: 100.0%;">Country: NI<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_87000acd6a75d9e8a23c01c96f6d10bb.setContent(html_deedcca16559d609727ecc0ad9410279);
+            
+        
+
+        marker_943eb1cbe2ed9d18ad37f9d9d391d478.bindPopup(popup_87000acd6a75d9e8a23c01c96f6d10bb)
+        ;
+
+        
+    
+    
+            marker_943eb1cbe2ed9d18ad37f9d9d391d478.bindTooltip(
+                `<div>
+                     NI - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_feee530dbb9ff742a1f7c88ff2713cc6 = L.marker(
+                [51.97402281175344, 5.490382558427674],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_1c1dc0f74083d00bd1a24a4a78d442e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5af3bd4d96dae9dc6efccb252d3844d6 = $(`<div id="html_5af3bd4d96dae9dc6efccb252d3844d6" style="width: 100.0%; height: 100.0%;">Country: NL<br>Category: Beer Garden<br>POI Count: 232</div>`)[0];
+                popup_1c1dc0f74083d00bd1a24a4a78d442e3.setContent(html_5af3bd4d96dae9dc6efccb252d3844d6);
+            
+        
+
+        marker_feee530dbb9ff742a1f7c88ff2713cc6.bindPopup(popup_1c1dc0f74083d00bd1a24a4a78d442e3)
+        ;
+
+        
+    
+    
+            marker_feee530dbb9ff742a1f7c88ff2713cc6.bindTooltip(
+                `<div>
+                     NL - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_598a8d7b05bc10de1abaae813191241e = L.marker(
+                [60.19341139164745, 9.57545260653579],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_4ff19bdc9460b4f76be15e9d2a0018ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa9882c8052354462cb860aee0d177f4 = $(`<div id="html_aa9882c8052354462cb860aee0d177f4" style="width: 100.0%; height: 100.0%;">Country: NO<br>Category: Beer Garden<br>POI Count: 36</div>`)[0];
+                popup_4ff19bdc9460b4f76be15e9d2a0018ec.setContent(html_aa9882c8052354462cb860aee0d177f4);
+            
+        
+
+        marker_598a8d7b05bc10de1abaae813191241e.bindPopup(popup_4ff19bdc9460b4f76be15e9d2a0018ec)
+        ;
+
+        
+    
+    
+            marker_598a8d7b05bc10de1abaae813191241e.bindTooltip(
+                `<div>
+                     NO - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95725b9cafecb2fcc32c91658005324e = L.marker(
+                [27.717470941144413, 85.31009007790034],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_fcaaf9cdacee863507cd413ea04f8dab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb9cbc71f8da18c9b70012361885fcfc = $(`<div id="html_cb9cbc71f8da18c9b70012361885fcfc" style="width: 100.0%; height: 100.0%;">Country: NP<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_fcaaf9cdacee863507cd413ea04f8dab.setContent(html_cb9cbc71f8da18c9b70012361885fcfc);
+            
+        
+
+        marker_95725b9cafecb2fcc32c91658005324e.bindPopup(popup_fcaaf9cdacee863507cd413ea04f8dab)
+        ;
+
+        
+    
+    
+            marker_95725b9cafecb2fcc32c91658005324e.bindTooltip(
+                `<div>
+                     NP - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10e8d18671ff43c61052f2e5bd4d829b = L.marker(
+                [-40.118435244090634, 174.10363751533185],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_75eace30be2dafdad8761f9478d3aa5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92a6d1bf1f56256c60f3d1083931f9c5 = $(`<div id="html_92a6d1bf1f56256c60f3d1083931f9c5" style="width: 100.0%; height: 100.0%;">Country: NZ<br>Category: Beer Garden<br>POI Count: 14</div>`)[0];
+                popup_75eace30be2dafdad8761f9478d3aa5c.setContent(html_92a6d1bf1f56256c60f3d1083931f9c5);
+            
+        
+
+        marker_10e8d18671ff43c61052f2e5bd4d829b.bindPopup(popup_75eace30be2dafdad8761f9478d3aa5c)
+        ;
+
+        
+    
+    
+            marker_10e8d18671ff43c61052f2e5bd4d829b.bindTooltip(
+                `<div>
+                     NZ - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4924e1970da661778afca59fe5b2f12 = L.marker(
+                [23.616909, 58.534812],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_ffdc5b3271a46d37a1e5b056335f3f99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_433761a44d67471655d65cf5222571f0 = $(`<div id="html_433761a44d67471655d65cf5222571f0" style="width: 100.0%; height: 100.0%;">Country: OM<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_ffdc5b3271a46d37a1e5b056335f3f99.setContent(html_433761a44d67471655d65cf5222571f0);
+            
+        
+
+        marker_a4924e1970da661778afca59fe5b2f12.bindPopup(popup_ffdc5b3271a46d37a1e5b056335f3f99)
+        ;
+
+        
+    
+    
+            marker_a4924e1970da661778afca59fe5b2f12.bindTooltip(
+                `<div>
+                     OM - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17781e87f68b70cf54ab6b8b167c8938 = L.marker(
+                [8.590885719484449, -80.00661978492631],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_1fb61db22bc18c6a8820565c3c3fceab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9d1b335e6b5ee6a5b40c960bd1fb14b = $(`<div id="html_e9d1b335e6b5ee6a5b40c960bd1fb14b" style="width: 100.0%; height: 100.0%;">Country: PA<br>Category: Beer Garden<br>POI Count: 6</div>`)[0];
+                popup_1fb61db22bc18c6a8820565c3c3fceab.setContent(html_e9d1b335e6b5ee6a5b40c960bd1fb14b);
+            
+        
+
+        marker_17781e87f68b70cf54ab6b8b167c8938.bindPopup(popup_1fb61db22bc18c6a8820565c3c3fceab)
+        ;
+
+        
+    
+    
+            marker_17781e87f68b70cf54ab6b8b167c8938.bindTooltip(
+                `<div>
+                     PA - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca091be52afbe5fbca5a5526e380e485 = L.marker(
+                [-11.015826449717277, -76.59368784805547],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_d95aa53f67e1c84c9a702d5a359ea854 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53e18406132f9d0b18af224654ec1a0c = $(`<div id="html_53e18406132f9d0b18af224654ec1a0c" style="width: 100.0%; height: 100.0%;">Country: PE<br>Category: Beer Garden<br>POI Count: 21</div>`)[0];
+                popup_d95aa53f67e1c84c9a702d5a359ea854.setContent(html_53e18406132f9d0b18af224654ec1a0c);
+            
+        
+
+        marker_ca091be52afbe5fbca5a5526e380e485.bindPopup(popup_d95aa53f67e1c84c9a702d5a359ea854)
+        ;
+
+        
+    
+    
+            marker_ca091be52afbe5fbca5a5526e380e485.bindTooltip(
+                `<div>
+                     PE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b024ba4e4321670f7775f1f5fe0396d = L.marker(
+                [12.528652626968515, 122.35894790948007],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_75c60776bbed44aa5a3e53293c9cf07e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11563bc351d8e6cbb675a196b25de6e7 = $(`<div id="html_11563bc351d8e6cbb675a196b25de6e7" style="width: 100.0%; height: 100.0%;">Country: PH<br>Category: Beer Garden<br>POI Count: 82</div>`)[0];
+                popup_75c60776bbed44aa5a3e53293c9cf07e.setContent(html_11563bc351d8e6cbb675a196b25de6e7);
+            
+        
+
+        marker_7b024ba4e4321670f7775f1f5fe0396d.bindPopup(popup_75c60776bbed44aa5a3e53293c9cf07e)
+        ;
+
+        
+    
+    
+            marker_7b024ba4e4321670f7775f1f5fe0396d.bindTooltip(
+                `<div>
+                     PH - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63bd4a0591d24d7de15f90a8c4fd8989 = L.marker(
+                [25.261034929025058, 67.97742354186671],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c9e2900425f39822d5d95c041a865f11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54c9a7c3f5b0414fa30d74cc7c4ce509 = $(`<div id="html_54c9a7c3f5b0414fa30d74cc7c4ce509" style="width: 100.0%; height: 100.0%;">Country: PK<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_c9e2900425f39822d5d95c041a865f11.setContent(html_54c9a7c3f5b0414fa30d74cc7c4ce509);
+            
+        
+
+        marker_63bd4a0591d24d7de15f90a8c4fd8989.bindPopup(popup_c9e2900425f39822d5d95c041a865f11)
+        ;
+
+        
+    
+    
+            marker_63bd4a0591d24d7de15f90a8c4fd8989.bindTooltip(
+                `<div>
+                     PK - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ab9d58df28696a98dbdb88077b1eeb3 = L.marker(
+                [52.329926801750965, 20.02450673037028],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_d5d82462bd0b5f3d715ddad6453dd39a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14fd300c2868f259cebb4ee38b01a8ec = $(`<div id="html_14fd300c2868f259cebb4ee38b01a8ec" style="width: 100.0%; height: 100.0%;">Country: PL<br>Category: Beer Garden<br>POI Count: 38</div>`)[0];
+                popup_d5d82462bd0b5f3d715ddad6453dd39a.setContent(html_14fd300c2868f259cebb4ee38b01a8ec);
+            
+        
+
+        marker_5ab9d58df28696a98dbdb88077b1eeb3.bindPopup(popup_d5d82462bd0b5f3d715ddad6453dd39a)
+        ;
+
+        
+    
+    
+            marker_5ab9d58df28696a98dbdb88077b1eeb3.bindTooltip(
+                `<div>
+                     PL - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3215149068bdce7957649b10a3326c9b = L.marker(
+                [18.338164086473856, -66.30630210253423],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_724bb2bccb52eec36a803b6f0116b588 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f268ccbd8ba4ee1df83702fb59b7d861 = $(`<div id="html_f268ccbd8ba4ee1df83702fb59b7d861" style="width: 100.0%; height: 100.0%;">Country: PR<br>Category: Beer Garden<br>POI Count: 11</div>`)[0];
+                popup_724bb2bccb52eec36a803b6f0116b588.setContent(html_f268ccbd8ba4ee1df83702fb59b7d861);
+            
+        
+
+        marker_3215149068bdce7957649b10a3326c9b.bindPopup(popup_724bb2bccb52eec36a803b6f0116b588)
+        ;
+
+        
+    
+    
+            marker_3215149068bdce7957649b10a3326c9b.bindTooltip(
+                `<div>
+                     PR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78274ade92dc9a08936c420be5c42588 = L.marker(
+                [39.449206827957894, -9.063556327445816],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9948e9defc8115aed418b04e7bcb61ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56ac0e755c183799bd1bad4f521a6936 = $(`<div id="html_56ac0e755c183799bd1bad4f521a6936" style="width: 100.0%; height: 100.0%;">Country: PT<br>Category: Beer Garden<br>POI Count: 18</div>`)[0];
+                popup_9948e9defc8115aed418b04e7bcb61ed.setContent(html_56ac0e755c183799bd1bad4f521a6936);
+            
+        
+
+        marker_78274ade92dc9a08936c420be5c42588.bindPopup(popup_9948e9defc8115aed418b04e7bcb61ed)
+        ;
+
+        
+    
+    
+            marker_78274ade92dc9a08936c420be5c42588.bindTooltip(
+                `<div>
+                     PT - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb382e33b038eaa0cf1b8c53b1fc7942 = L.marker(
+                [-25.267944967373545, -56.98222336259911],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_3e96cd9245f5222f2f1b68702e4b8024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cda0e155e3a79690a538aa822ce1351d = $(`<div id="html_cda0e155e3a79690a538aa822ce1351d" style="width: 100.0%; height: 100.0%;">Country: PY<br>Category: Beer Garden<br>POI Count: 25</div>`)[0];
+                popup_3e96cd9245f5222f2f1b68702e4b8024.setContent(html_cda0e155e3a79690a538aa822ce1351d);
+            
+        
+
+        marker_fb382e33b038eaa0cf1b8c53b1fc7942.bindPopup(popup_3e96cd9245f5222f2f1b68702e4b8024)
+        ;
+
+        
+    
+    
+            marker_fb382e33b038eaa0cf1b8c53b1fc7942.bindTooltip(
+                `<div>
+                     PY - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a71060c7dcc7ba8433ff1a6172b4eb1 = L.marker(
+                [25.280285370955806, 51.5082506793673],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_0dd459eac4c18d0cc07b0eb349ec2135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b2f2e1ca4b07a20f094709f9cfff7a9 = $(`<div id="html_5b2f2e1ca4b07a20f094709f9cfff7a9" style="width: 100.0%; height: 100.0%;">Country: QA<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_0dd459eac4c18d0cc07b0eb349ec2135.setContent(html_5b2f2e1ca4b07a20f094709f9cfff7a9);
+            
+        
+
+        marker_0a71060c7dcc7ba8433ff1a6172b4eb1.bindPopup(popup_0dd459eac4c18d0cc07b0eb349ec2135)
+        ;
+
+        
+    
+    
+            marker_0a71060c7dcc7ba8433ff1a6172b4eb1.bindTooltip(
+                `<div>
+                     QA - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27c85957682753292e60924af3459a77 = L.marker(
+                [-21.048719, 55.221075],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_595f117ef97f8f82d797a97aa7202902 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a10a9a81b4d2a2850d3bcca504ac83b = $(`<div id="html_2a10a9a81b4d2a2850d3bcca504ac83b" style="width: 100.0%; height: 100.0%;">Country: RE<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_595f117ef97f8f82d797a97aa7202902.setContent(html_2a10a9a81b4d2a2850d3bcca504ac83b);
+            
+        
+
+        marker_27c85957682753292e60924af3459a77.bindPopup(popup_595f117ef97f8f82d797a97aa7202902)
+        ;
+
+        
+    
+    
+            marker_27c85957682753292e60924af3459a77.bindTooltip(
+                `<div>
+                     RE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52d297371dda5d54639ba4f5cf2af0c0 = L.marker(
+                [45.48266444267355, 24.817049558850673],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_3d960a3f615a50d91f31151ef681d7a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da3064e679b65767c3ed1869bbc73131 = $(`<div id="html_da3064e679b65767c3ed1869bbc73131" style="width: 100.0%; height: 100.0%;">Country: RO<br>Category: Beer Garden<br>POI Count: 31</div>`)[0];
+                popup_3d960a3f615a50d91f31151ef681d7a6.setContent(html_da3064e679b65767c3ed1869bbc73131);
+            
+        
+
+        marker_52d297371dda5d54639ba4f5cf2af0c0.bindPopup(popup_3d960a3f615a50d91f31151ef681d7a6)
+        ;
+
+        
+    
+    
+            marker_52d297371dda5d54639ba4f5cf2af0c0.bindTooltip(
+                `<div>
+                     RO - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ca8bfed96860dfcbb91e7c456fdc482 = L.marker(
+                [44.74042326321433, 20.24285621543407],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_497f40c0e4d862f87c05e5f3968f38ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87ea503d3f660ca3d127c3a5bbd9863c = $(`<div id="html_87ea503d3f660ca3d127c3a5bbd9863c" style="width: 100.0%; height: 100.0%;">Country: RS<br>Category: Beer Garden<br>POI Count: 11</div>`)[0];
+                popup_497f40c0e4d862f87c05e5f3968f38ea.setContent(html_87ea503d3f660ca3d127c3a5bbd9863c);
+            
+        
+
+        marker_3ca8bfed96860dfcbb91e7c456fdc482.bindPopup(popup_497f40c0e4d862f87c05e5f3968f38ea)
+        ;
+
+        
+    
+    
+            marker_3ca8bfed96860dfcbb91e7c456fdc482.bindTooltip(
+                `<div>
+                     RS - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5a9ecd97856ca49a7831e1922730789 = L.marker(
+                [55.618758349015366, 44.73307230995546],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9aecc5003464193e680d4a40ef23835b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_effbb9731bc0d20948e3954a80114370 = $(`<div id="html_effbb9731bc0d20948e3954a80114370" style="width: 100.0%; height: 100.0%;">Country: RU<br>Category: Beer Store<br>POI Count: 276</div>`)[0];
+                popup_9aecc5003464193e680d4a40ef23835b.setContent(html_effbb9731bc0d20948e3954a80114370);
+            
+        
+
+        marker_a5a9ecd97856ca49a7831e1922730789.bindPopup(popup_9aecc5003464193e680d4a40ef23835b)
+        ;
+
+        
+    
+    
+            marker_a5a9ecd97856ca49a7831e1922730789.bindTooltip(
+                `<div>
+                     RU - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_640b8343c87b8392d91a627869a88372 = L.marker(
+                [-1.983031153678894, 30.2142333984375],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_7ead44eb1e87f8e2725a0c3e773048e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6792ea50b1ac1bb3ada260774cb8be38 = $(`<div id="html_6792ea50b1ac1bb3ada260774cb8be38" style="width: 100.0%; height: 100.0%;">Country: RW<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_7ead44eb1e87f8e2725a0c3e773048e8.setContent(html_6792ea50b1ac1bb3ada260774cb8be38);
+            
+        
+
+        marker_640b8343c87b8392d91a627869a88372.bindPopup(popup_7ead44eb1e87f8e2725a0c3e773048e8)
+        ;
+
+        
+    
+    
+            marker_640b8343c87b8392d91a627869a88372.bindTooltip(
+                `<div>
+                     RW - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_272239fc6d4e69f71379bd5fe9c6e0cf = L.marker(
+                [23.95177092451135, 41.26197961619764],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_02f3091a03bb3c83f361d7942b1f6689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b402de686af1ef80bfe5972d5f5de68 = $(`<div id="html_5b402de686af1ef80bfe5972d5f5de68" style="width: 100.0%; height: 100.0%;">Country: SA<br>Category: Beer Garden<br>POI Count: 5</div>`)[0];
+                popup_02f3091a03bb3c83f361d7942b1f6689.setContent(html_5b402de686af1ef80bfe5972d5f5de68);
+            
+        
+
+        marker_272239fc6d4e69f71379bd5fe9c6e0cf.bindPopup(popup_02f3091a03bb3c83f361d7942b1f6689)
+        ;
+
+        
+    
+    
+            marker_272239fc6d4e69f71379bd5fe9c6e0cf.bindTooltip(
+                `<div>
+                     SA - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8117fedd927a46c7dc77e79a5089e4bd = L.marker(
+                [59.35122831739066, 15.645154231244462],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_7d7b23a237a2222884638cbc1f8e786d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b839d544bbbef0c38cd2d5d7140fcd3d = $(`<div id="html_b839d544bbbef0c38cd2d5d7140fcd3d" style="width: 100.0%; height: 100.0%;">Country: SE<br>Category: Beer Garden<br>POI Count: 48</div>`)[0];
+                popup_7d7b23a237a2222884638cbc1f8e786d.setContent(html_b839d544bbbef0c38cd2d5d7140fcd3d);
+            
+        
+
+        marker_8117fedd927a46c7dc77e79a5089e4bd.bindPopup(popup_7d7b23a237a2222884638cbc1f8e786d)
+        ;
+
+        
+    
+    
+            marker_8117fedd927a46c7dc77e79a5089e4bd.bindTooltip(
+                `<div>
+                     SE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_633e5af8c5c62627d1a57b322641e9a4 = L.marker(
+                [1.3390208669020274, 103.87730685774054],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_bbe53098dd0761b7f72a3ee8008a70ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d9aaf969f3346fcd7df154efb187eee = $(`<div id="html_3d9aaf969f3346fcd7df154efb187eee" style="width: 100.0%; height: 100.0%;">Country: SG<br>Category: Beer Garden<br>POI Count: 13</div>`)[0];
+                popup_bbe53098dd0761b7f72a3ee8008a70ed.setContent(html_3d9aaf969f3346fcd7df154efb187eee);
+            
+        
+
+        marker_633e5af8c5c62627d1a57b322641e9a4.bindPopup(popup_bbe53098dd0761b7f72a3ee8008a70ed)
+        ;
+
+        
+    
+    
+            marker_633e5af8c5c62627d1a57b322641e9a4.bindTooltip(
+                `<div>
+                     SG - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b3c78802ce40c2e3ec3bf91c89dd11e = L.marker(
+                [45.9797974255816, 14.88141711182798],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_6aedc3e5ec05cb87de7177ceba246e8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_160cd5ea5dc534f3d3bec7961dc013a1 = $(`<div id="html_160cd5ea5dc534f3d3bec7961dc013a1" style="width: 100.0%; height: 100.0%;">Country: SI<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_6aedc3e5ec05cb87de7177ceba246e8d.setContent(html_160cd5ea5dc534f3d3bec7961dc013a1);
+            
+        
+
+        marker_3b3c78802ce40c2e3ec3bf91c89dd11e.bindPopup(popup_6aedc3e5ec05cb87de7177ceba246e8d)
+        ;
+
+        
+    
+    
+            marker_3b3c78802ce40c2e3ec3bf91c89dd11e.bindTooltip(
+                `<div>
+                     SI - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c9fbfaff928a151db249984ed1f37a0 = L.marker(
+                [48.52182860558655, 18.490614135690926],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9004aa5ac1761009f7b7ad09a95b6d3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4a4023cdb4fa702939aab87dc87da13 = $(`<div id="html_d4a4023cdb4fa702939aab87dc87da13" style="width: 100.0%; height: 100.0%;">Country: SK<br>Category: Beer Garden<br>POI Count: 29</div>`)[0];
+                popup_9004aa5ac1761009f7b7ad09a95b6d3f.setContent(html_d4a4023cdb4fa702939aab87dc87da13);
+            
+        
+
+        marker_3c9fbfaff928a151db249984ed1f37a0.bindPopup(popup_9004aa5ac1761009f7b7ad09a95b6d3f)
+        ;
+
+        
+    
+    
+            marker_3c9fbfaff928a151db249984ed1f37a0.bindTooltip(
+                `<div>
+                     SK - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03979464db9274228e3960c1379b44bd = L.marker(
+                [5.821362342002503, -55.170928318052475],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_db38042ee900f8371dab127ab6cd7e76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c421a2a41aea5b075df54bdfc1e6446 = $(`<div id="html_7c421a2a41aea5b075df54bdfc1e6446" style="width: 100.0%; height: 100.0%;">Country: SR<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_db38042ee900f8371dab127ab6cd7e76.setContent(html_7c421a2a41aea5b075df54bdfc1e6446);
+            
+        
+
+        marker_03979464db9274228e3960c1379b44bd.bindPopup(popup_db38042ee900f8371dab127ab6cd7e76)
+        ;
+
+        
+    
+    
+            marker_03979464db9274228e3960c1379b44bd.bindTooltip(
+                `<div>
+                     SR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_871bcfdc5cc5f8cbb1c30377352bf67f = L.marker(
+                [0.3132958710193634, 5.336158752441406],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_0ec9ea879f1027b204b6b8fee5684726 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2601ca65729c93372f55a30e7e5a8fa0 = $(`<div id="html_2601ca65729c93372f55a30e7e5a8fa0" style="width: 100.0%; height: 100.0%;">Country: ST<br>Category: Beer Garden<br>POI Count: 1</div>`)[0];
+                popup_0ec9ea879f1027b204b6b8fee5684726.setContent(html_2601ca65729c93372f55a30e7e5a8fa0);
+            
+        
+
+        marker_871bcfdc5cc5f8cbb1c30377352bf67f.bindPopup(popup_0ec9ea879f1027b204b6b8fee5684726)
+        ;
+
+        
+    
+    
+            marker_871bcfdc5cc5f8cbb1c30377352bf67f.bindTooltip(
+                `<div>
+                     ST - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_420b4c23fb1b5adfdd4a800115c85314 = L.marker(
+                [13.840708086091478, -89.25608684702647],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_9fcf3f412250e78be93a61d5600eef25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d806d580081a65a7bd95a51453f2e3a = $(`<div id="html_3d806d580081a65a7bd95a51453f2e3a" style="width: 100.0%; height: 100.0%;">Country: SV<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_9fcf3f412250e78be93a61d5600eef25.setContent(html_3d806d580081a65a7bd95a51453f2e3a);
+            
+        
+
+        marker_420b4c23fb1b5adfdd4a800115c85314.bindPopup(popup_9fcf3f412250e78be93a61d5600eef25)
+        ;
+
+        
+    
+    
+            marker_420b4c23fb1b5adfdd4a800115c85314.bindTooltip(
+                `<div>
+                     SV - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dcdff6f7eaffbd4c037ee8c01fa31c4 = L.marker(
+                [14.342298743596913, 100.7163240772297],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_c616026fad3f1abc04e3505f6041c451 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2024a9e109b9882f41097eccfd26ae7c = $(`<div id="html_2024a9e109b9882f41097eccfd26ae7c" style="width: 100.0%; height: 100.0%;">Country: TH<br>Category: Beer Garden<br>POI Count: 154</div>`)[0];
+                popup_c616026fad3f1abc04e3505f6041c451.setContent(html_2024a9e109b9882f41097eccfd26ae7c);
+            
+        
+
+        marker_5dcdff6f7eaffbd4c037ee8c01fa31c4.bindPopup(popup_c616026fad3f1abc04e3505f6041c451)
+        ;
+
+        
+    
+    
+            marker_5dcdff6f7eaffbd4c037ee8c01fa31c4.bindTooltip(
+                `<div>
+                     TH - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_036afbc0ab6b6221f33a59c6c5d35882 = L.marker(
+                [36.18888016316199, 10.005678181822018],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_a28de56fc62f0844f69445e08a81687b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c687b66068549ced6e240276ea0a6f91 = $(`<div id="html_c687b66068549ced6e240276ea0a6f91" style="width: 100.0%; height: 100.0%;">Country: TN<br>Category: Beer Garden<br>POI Count: 24</div>`)[0];
+                popup_a28de56fc62f0844f69445e08a81687b.setContent(html_c687b66068549ced6e240276ea0a6f91);
+            
+        
+
+        marker_036afbc0ab6b6221f33a59c6c5d35882.bindPopup(popup_a28de56fc62f0844f69445e08a81687b)
+        ;
+
+        
+    
+    
+            marker_036afbc0ab6b6221f33a59c6c5d35882.bindTooltip(
+                `<div>
+                     TN - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_588b44025010a196167c6248f9aae356 = L.marker(
+                [39.47953020867629, 30.72524435603425],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_cc30e17eea9433fad0e4c220845b2563 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c92c24b66ae0edc02c0a148f5a4ad3f = $(`<div id="html_7c92c24b66ae0edc02c0a148f5a4ad3f" style="width: 100.0%; height: 100.0%;">Country: TR<br>Category: Beer Garden<br>POI Count: 648</div>`)[0];
+                popup_cc30e17eea9433fad0e4c220845b2563.setContent(html_7c92c24b66ae0edc02c0a148f5a4ad3f);
+            
+        
+
+        marker_588b44025010a196167c6248f9aae356.bindPopup(popup_cc30e17eea9433fad0e4c220845b2563)
+        ;
+
+        
+    
+    
+            marker_588b44025010a196167c6248f9aae356.bindTooltip(
+                `<div>
+                     TR - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57df88bebe82eeea84dff6c4c3eee92a = L.marker(
+                [10.86449280929487, -61.08324647784971],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_92601a5f4d6e7dffe89361e1de5293dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5434f058cca5aca42ef23fca8c5304ad = $(`<div id="html_5434f058cca5aca42ef23fca8c5304ad" style="width: 100.0%; height: 100.0%;">Country: TT<br>Category: Beer Garden<br>POI Count: 2</div>`)[0];
+                popup_92601a5f4d6e7dffe89361e1de5293dc.setContent(html_5434f058cca5aca42ef23fca8c5304ad);
+            
+        
+
+        marker_57df88bebe82eeea84dff6c4c3eee92a.bindPopup(popup_92601a5f4d6e7dffe89361e1de5293dc)
+        ;
+
+        
+    
+    
+            marker_57df88bebe82eeea84dff6c4c3eee92a.bindTooltip(
+                `<div>
+                     TT - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d63906e410d224a6d141b85460f660b7 = L.marker(
+                [24.52636576515448, 121.34724979979202],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_114c672c1bc8757882a50ae7db9847f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e884959d2d11e06980646721c335915f = $(`<div id="html_e884959d2d11e06980646721c335915f" style="width: 100.0%; height: 100.0%;">Country: TW<br>Category: Beer Garden<br>POI Count: 8</div>`)[0];
+                popup_114c672c1bc8757882a50ae7db9847f8.setContent(html_e884959d2d11e06980646721c335915f);
+            
+        
+
+        marker_d63906e410d224a6d141b85460f660b7.bindPopup(popup_114c672c1bc8757882a50ae7db9847f8)
+        ;
+
+        
+    
+    
+            marker_d63906e410d224a6d141b85460f660b7.bindTooltip(
+                `<div>
+                     TW - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02a9d3afcb2876557b0a28c776e1d02a = L.marker(
+                [-5.7530912999999995, 34.425685],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_76f3b4bd1cbd6515162b050f3e059f7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1caa71cb65b4bc917f44eda622e4b643 = $(`<div id="html_1caa71cb65b4bc917f44eda622e4b643" style="width: 100.0%; height: 100.0%;">Country: TZ<br>Category: Beer Bar<br>POI Count: 2</div>`)[0];
+                popup_76f3b4bd1cbd6515162b050f3e059f7c.setContent(html_1caa71cb65b4bc917f44eda622e4b643);
+            
+        
+
+        marker_02a9d3afcb2876557b0a28c776e1d02a.bindPopup(popup_76f3b4bd1cbd6515162b050f3e059f7c)
+        ;
+
+        
+    
+    
+            marker_02a9d3afcb2876557b0a28c776e1d02a.bindTooltip(
+                `<div>
+                     TZ - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc730b00398cbee658fcd1e7d2f4a094 = L.marker(
+                [48.980569727845705, 31.358686460491054],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_e0818f165a3021830859c79715d57421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8825f04996dd9a37d829e5eff41b7493 = $(`<div id="html_8825f04996dd9a37d829e5eff41b7493" style="width: 100.0%; height: 100.0%;">Country: UA<br>Category: Beer Store<br>POI Count: 54</div>`)[0];
+                popup_e0818f165a3021830859c79715d57421.setContent(html_8825f04996dd9a37d829e5eff41b7493);
+            
+        
+
+        marker_dc730b00398cbee658fcd1e7d2f4a094.bindPopup(popup_e0818f165a3021830859c79715d57421)
+        ;
+
+        
+    
+    
+            marker_dc730b00398cbee658fcd1e7d2f4a094.bindTooltip(
+                `<div>
+                     UA - Beer Store
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f6ff8b4ac2f37de5e60ed7320d47d85 = L.marker(
+                [0.5873294804762116, 32.44831473131517],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_660c407b64ef9f6f208e69ee070d0743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfb26a8fc8c4b09ff49c05978914465b = $(`<div id="html_cfb26a8fc8c4b09ff49c05978914465b" style="width: 100.0%; height: 100.0%;">Country: UG<br>Category: Beer Garden<br>POI Count: 9</div>`)[0];
+                popup_660c407b64ef9f6f208e69ee070d0743.setContent(html_cfb26a8fc8c4b09ff49c05978914465b);
+            
+        
+
+        marker_7f6ff8b4ac2f37de5e60ed7320d47d85.bindPopup(popup_660c407b64ef9f6f208e69ee070d0743)
+        ;
+
+        
+    
+    
+            marker_7f6ff8b4ac2f37de5e60ed7320d47d85.bindTooltip(
+                `<div>
+                     UG - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a07d772862d69f191fc9c250b80ff20b = L.marker(
+                [38.622847006671286, -89.09171505581297],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_04206e22bc456fc4331cdc391bec56a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc676ea380a72e5fa92ab6dec46349f = $(`<div id="html_ccc676ea380a72e5fa92ab6dec46349f" style="width: 100.0%; height: 100.0%;">Country: US<br>Category: Beer Garden<br>POI Count: 1358</div>`)[0];
+                popup_04206e22bc456fc4331cdc391bec56a9.setContent(html_ccc676ea380a72e5fa92ab6dec46349f);
+            
+        
+
+        marker_a07d772862d69f191fc9c250b80ff20b.bindPopup(popup_04206e22bc456fc4331cdc391bec56a9)
+        ;
+
+        
+    
+    
+            marker_a07d772862d69f191fc9c250b80ff20b.bindTooltip(
+                `<div>
+                     US - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b9e312496e228225db68b921ff4660e = L.marker(
+                [-34.86690434527211, -55.372218024549866],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_bb964c43b4b99dd4357a7a996bfc7e44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bffd31bb49264f454076af7be4704485 = $(`<div id="html_bffd31bb49264f454076af7be4704485" style="width: 100.0%; height: 100.0%;">Country: UY<br>Category: Beer Garden<br>POI Count: 4</div>`)[0];
+                popup_bb964c43b4b99dd4357a7a996bfc7e44.setContent(html_bffd31bb49264f454076af7be4704485);
+            
+        
+
+        marker_5b9e312496e228225db68b921ff4660e.bindPopup(popup_bb964c43b4b99dd4357a7a996bfc7e44)
+        ;
+
+        
+    
+    
+            marker_5b9e312496e228225db68b921ff4660e.bindTooltip(
+                `<div>
+                     UY - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4139fbade65423d2a4d175f14a1a22a9 = L.marker(
+                [41.3150865, 69.2730725],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_3f81c6aa163ca504c319637ed2a7ec51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f1bde5f2d8a0e51799f980640bdbb59 = $(`<div id="html_1f1bde5f2d8a0e51799f980640bdbb59" style="width: 100.0%; height: 100.0%;">Country: UZ<br>Category: Beer Bar<br>POI Count: 2</div>`)[0];
+                popup_3f81c6aa163ca504c319637ed2a7ec51.setContent(html_1f1bde5f2d8a0e51799f980640bdbb59);
+            
+        
+
+        marker_4139fbade65423d2a4d175f14a1a22a9.bindPopup(popup_3f81c6aa163ca504c319637ed2a7ec51)
+        ;
+
+        
+    
+    
+            marker_4139fbade65423d2a4d175f14a1a22a9.bindTooltip(
+                `<div>
+                     UZ - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_598e54916572175f95d6b26ad095e06e = L.marker(
+                [10.319283380724782, -68.76552347382707],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_4cdb7752a075d560e0b7fa0bd3420d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a2dc9306134228cf42c793ea6aed681 = $(`<div id="html_0a2dc9306134228cf42c793ea6aed681" style="width: 100.0%; height: 100.0%;">Country: VE<br>Category: Beer Garden<br>POI Count: 9</div>`)[0];
+                popup_4cdb7752a075d560e0b7fa0bd3420d57.setContent(html_0a2dc9306134228cf42c793ea6aed681);
+            
+        
+
+        marker_598e54916572175f95d6b26ad095e06e.bindPopup(popup_4cdb7752a075d560e0b7fa0bd3420d57)
+        ;
+
+        
+    
+    
+            marker_598e54916572175f95d6b26ad095e06e.bindTooltip(
+                `<div>
+                     VE - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f89ceba8da71d65fd79b5a2c76044d = L.marker(
+                [15.242642095339221, 106.56551253982946],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_a4483be49bdf24fae34a1d8d52cf625f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f5e7d16909bd916b29b41a26b3a87d = $(`<div id="html_f9f5e7d16909bd916b29b41a26b3a87d" style="width: 100.0%; height: 100.0%;">Country: VN<br>Category: Beer Garden<br>POI Count: 43</div>`)[0];
+                popup_a4483be49bdf24fae34a1d8d52cf625f.setContent(html_f9f5e7d16909bd916b29b41a26b3a87d);
+            
+        
+
+        marker_11f89ceba8da71d65fd79b5a2c76044d.bindPopup(popup_a4483be49bdf24fae34a1d8d52cf625f)
+        ;
+
+        
+    
+    
+            marker_11f89ceba8da71d65fd79b5a2c76044d.bindTooltip(
+                `<div>
+                     VN - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_500eed33517c3b6262859ad26dc8afcd = L.marker(
+                [42.604675, 21.187532],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_7c3acc985ac4b9409f54759bd96781ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_004bafd56cdec3dc85f89813a7e570fe = $(`<div id="html_004bafd56cdec3dc85f89813a7e570fe" style="width: 100.0%; height: 100.0%;">Country: XK<br>Category: Beer Bar<br>POI Count: 1</div>`)[0];
+                popup_7c3acc985ac4b9409f54759bd96781ee.setContent(html_004bafd56cdec3dc85f89813a7e570fe);
+            
+        
+
+        marker_500eed33517c3b6262859ad26dc8afcd.bindPopup(popup_7c3acc985ac4b9409f54759bd96781ee)
+        ;
+
+        
+    
+    
+            marker_500eed33517c3b6262859ad26dc8afcd.bindTooltip(
+                `<div>
+                     XK - Beer Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ab95cec9f1900078a94de29028454d9 = L.marker(
+                [-30.03391025718406, 25.95068567813578],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_83147ea76c5f0d23f4c58c95c4701f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5ddd50d1eeae1803c4379f5269a9ed = $(`<div id="html_1e5ddd50d1eeae1803c4379f5269a9ed" style="width: 100.0%; height: 100.0%;">Country: ZA<br>Category: Beer Garden<br>POI Count: 14</div>`)[0];
+                popup_83147ea76c5f0d23f4c58c95c4701f21.setContent(html_1e5ddd50d1eeae1803c4379f5269a9ed);
+            
+        
+
+        marker_5ab95cec9f1900078a94de29028454d9.bindPopup(popup_83147ea76c5f0d23f4c58c95c4701f21)
+        ;
+
+        
+    
+    
+            marker_5ab95cec9f1900078a94de29028454d9.bindTooltip(
+                `<div>
+                     ZA - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e769889e03146865c8c5d44588d8766b = L.marker(
+                [-14.539324602946806, 28.333553011664467],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_65dfe43a6d6842248b7f81e6ad4320b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4e41ad20beaddccd3cb39f6ebbf41cf = $(`<div id="html_a4e41ad20beaddccd3cb39f6ebbf41cf" style="width: 100.0%; height: 100.0%;">Country: ZM<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_65dfe43a6d6842248b7f81e6ad4320b8.setContent(html_a4e41ad20beaddccd3cb39f6ebbf41cf);
+            
+        
+
+        marker_e769889e03146865c8c5d44588d8766b.bindPopup(popup_65dfe43a6d6842248b7f81e6ad4320b8)
+        ;
+
+        
+    
+    
+            marker_e769889e03146865c8c5d44588d8766b.bindTooltip(
+                `<div>
+                     ZM - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52f81eb0d0c174132663c9864b5378f4 = L.marker(
+                [-18.113065338541666, 30.815986685994464],
+                {}
+            ).addTo(map_fe0d0de07a739fd795bd5e8018800c23);
+        
+    
+        var popup_d2d566af5382d2915c6894ab2431db7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a1d94a3b9ff47362c5a7990d566c756 = $(`<div id="html_1a1d94a3b9ff47362c5a7990d566c756" style="width: 100.0%; height: 100.0%;">Country: ZW<br>Category: Beer Garden<br>POI Count: 3</div>`)[0];
+                popup_d2d566af5382d2915c6894ab2431db7b.setContent(html_1a1d94a3b9ff47362c5a7990d566c756);
+            
+        
+
+        marker_52f81eb0d0c174132663c9864b5378f4.bindPopup(popup_d2d566af5382d2915c6894ab2431db7b)
+        ;
+
+        
+    
+    
+            marker_52f81eb0d0c174132663c9864b5378f4.bindTooltip(
+                `<div>
+                     ZW - Beer Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
